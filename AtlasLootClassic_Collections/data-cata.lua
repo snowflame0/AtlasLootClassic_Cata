@@ -525,19 +525,21 @@ data["HeirloomCata"] = {
     gameVersion = AtlasLoot.CATA_VERSION_NUM,
     items = {{
         name = ALIL["Armor"],
-        [NORMAL_ITTYPE] = {}
-    }, {
-        name = ALIL["Weapon"],
-        [NORMAL_ITTYPE] = {}
-    }, {
-        name = ALIL["Trinket"],
-        [NORMAL_ITTYPE] = {}
-    }, {
-        name = ALIL["Finger"],
-        [NORMAL_ITTYPE] = {}
-    }, {
-        name = AL["Misc"],
-        [NORMAL_ITTYPE] = {}
+        [NORMAL_DIFF] = {
+            -- Cloak
+            {1, 62039}, -- Inherited Cape of the Black Baron
+            {2, 62038}, -- Worn Stoneskin Gargoyle Cape
+            {3, 62040}, -- Ancient Bloodmoon Cloak
+            {4, 69892}, -- Ripped Sandstorm Cloak
+            -- Head
+            {16, 69887}, -- Burnished Helm of Might
+            {17, 61931}, -- Polished Helm of Valor
+            {18, 61936}, -- Mystical Coif of Elements
+            {19, 61935}, -- Tarnished Raging Berserker's Helm
+            {20, 61942}, -- Preened Tribal War Feathers
+            {21, 61937}, -- Stained Shadowcraft Cap
+            {22, 61958} -- Tattered Dreadmist Mask
+        }
     }}
 }
 
