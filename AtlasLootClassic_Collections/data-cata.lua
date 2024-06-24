@@ -579,9 +579,8 @@ data["MidsummerFestivalCata"] = {
             { 8, 69767 }, -- The Frost Lord's Battle Shroud
             { 10, 35723 }, -- Shards of Ahune
             { 16, 35498 }, -- Formula: Enchant Weapon - Deathfrost
-            { 18, 34955 }, -- Scorched Stone
-            { 19, 53641 }, -- Ice Chip
-            { 21, 35557 }, -- Huge Snowball
+            { 18, 53641 }, -- Ice Chip
+            { 20, 35557 }, -- Huge Snowball
         }
     }}
 }
