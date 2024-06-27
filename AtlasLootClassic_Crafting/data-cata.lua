@@ -498,7 +498,8 @@ data["EngineeringCata"] = {
                 { 1, 100687 },	-- Extreme-Impact Hole Puncher
                 { 2, 84432 },	-- Kickback 5000
                 { 3, 84431 },	-- Overpowered Chicken Splitter
-                { 4, 84420 },	-- Finely-Tuned Throat Needler
+                { 4, 84417 },	-- Volatile Thunderstick
+                { 5, 84420 },	-- Finely-Tuned Throat Needler
                 { 16, 84411 },	-- High-Powered Bolt Gun
             }
         },
