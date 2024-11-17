@@ -3919,7 +3919,6 @@ NameColor = RED,
 { -- Shared
 name = AL["Shared Boss Loot"],
 ContentPhaseCata = 4,
-ExtraList = true,
 [RAIDFINDER_DIFF] = {
     { 1, 78497 },	-- Breathstealer Band
     { 2, 78498 },	-- Hardheart Ring
