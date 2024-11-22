@@ -714,6 +714,17 @@ data["ArenaS10PvP"] = {
             { 17, 70366 }, -- Ruthless Gladiator's Cuffs of Meditation
             { 18, 70365 }, -- Ruthless Gladiator's Cuffs of Prowess
         },
+        [SET6_DIFF] = {
+            { 1, 70660 }, -- Vicious Gladiator's Treads of Alacrity
+            { 2, 70661 }, -- Vicious Gladiator's Treads of Cruelty
+            { 3, 70662 }, -- Vicious Gladiator's Treads of Meditation
+            { 5, 70544 }, -- Vicious Gladiator's Cord of Accuracy
+            { 6, 70545 }, -- Vicious Gladiator's Cord of Cruelty
+            { 7, 70546 }, -- Vicious Gladiator's Cord of Meditation
+            { 16, 70547 }, -- Vicious Gladiator's Cuffs of Accuracy
+            { 17, 70548 }, -- Vicious Gladiator's Cuffs of Meditation
+            { 18, 70549 }, -- Vicious Gladiator's Cuffs of Prowess
+        },
         [SET5_DIFF] = {
             { 1, 70496 }, -- Ruthless Gladiator's Treads of Alacrity
             { 2, 70495 }, -- Ruthless Gladiator's Treads of Cruelty
@@ -734,6 +745,20 @@ data["ArenaS10PvP"] = {
             { 17, 70352 }, -- Ruthless Gladiator's Armwraps of Alacrity
             { 18, 70345 }, -- Ruthless Gladiator's Bindings of Meditation
             { 19, 70359 }, -- Ruthless Gladiator's Bindings of Prowess
+        },
+        [SET6_DIFF] = {
+            { 1, 70527 }, -- Vicious Gladiator's Boots of Alacrity
+            { 2, 70528 }, -- Vicious Gladiator's Boots of Cruelty
+            { 3, 70571 }, -- Vicious Gladiator's Footguards of Alacrity
+            { 4, 70572 }, -- Vicious Gladiator's Footguards of Meditation
+            { 6, 70523 }, -- Vicious Gladiator's Belt of Cruelty
+            { 7, 70524 }, -- Vicious Gladiator's Belt of Meditation
+            { 8, 70663 }, -- Vicious Gladiator's Waistband of Accuracy
+            { 9, 70664 }, -- Vicious Gladiator's Waistband of Cruelty
+            { 16, 70515 }, -- Vicious Gladiator's Armwraps of Accuracy
+            { 17, 70516 }, -- Vicious Gladiator's Armwraps of Alacrity
+            { 18, 70525 }, -- Vicious Gladiator's Bindings of Meditation
+            { 19, 70526 }, -- Vicious Gladiator's Bindings of Prowess
         },
         [SET5_DIFF] = {
             { 1, 70507 }, -- Ruthless Gladiator's Boots of Alacrity
@@ -757,6 +782,20 @@ data["ArenaS10PvP"] = {
             { 18, 70340 }, -- Ruthless Gladiator's Wristguards of Accuracy
             { 19, 70338 }, -- Ruthless Gladiator's Wristguards of Alacrity
         },
+        [SET6_DIFF] = {
+            { 1, 70640 }, -- Vicious Gladiator's Sabatons of Alacrity
+            { 2, 70639 }, -- Vicious Gladiator's Sabatons of Alacrity
+            { 3, 70641 }, -- Vicious Gladiator's Sabatons of Cruelty
+            { 4, 70642 }, -- Vicious Gladiator's Sabatons of Meditation
+            { 6, 70595 }, -- Vicious Gladiator's Links of Accuracy
+            { 7, 70596 }, -- Vicious Gladiator's Links of Cruelty
+            { 8, 70665 }, -- Vicious Gladiator's Waistguard of Cruelty
+            { 9, 70666 }, -- Vicious Gladiator's Waistguard of Meditation
+            { 16, 70511 }, -- Vicious Gladiator's Armbands of Meditation
+            { 17, 70512 }, -- Vicious Gladiator's Armbands of Prowess
+            { 18, 70669 }, -- Vicious Gladiator's Wristguards of Accuracy
+            { 19, 70670 }, -- Vicious Gladiator's Wristguards of Alacrity
+        },
         [SET5_DIFF] = {
             { 1, 70501 }, -- Ruthless Gladiator's Sabatons of Alacrity
             { 2, 70508 }, -- Ruthless Gladiator's Sabatons of Alacrity
@@ -779,6 +818,20 @@ data["ArenaS10PvP"] = {
             { 18, 70334 }, -- Ruthless Gladiator's Bracers of Meditation
             { 19, 70325 }, -- Ruthless Gladiator's Bracers of Prowess
         },
+        [SET6_DIFF] = {
+            { 1, 70575 }, -- Vicious Gladiator's Greaves of Alacrity
+            { 2, 70576 }, -- Vicious Gladiator's Greaves of Meditation
+            { 3, 70667 }, -- Vicious Gladiator's Warboots of Alacrity
+            { 4, 70668 }, -- Vicious Gladiator's Warboots of Cruelty
+            { 6, 70540 }, -- Vicious Gladiator's Clasp of Cruelty
+            { 7, 70541 }, -- Vicious Gladiator's Clasp of Meditation
+            { 8, 70573 }, -- Vicious Gladiator's Girdle of Cruelty
+            { 9, 70574 }, -- Vicious Gladiator's Girdle of Prowess
+            { 16, 70513 }, -- Vicious Gladiator's Armplates of Alacrity
+            { 17, 70514 }, -- Vicious Gladiator's Armplates of Proficiency
+            { 18, 70529 }, -- Vicious Gladiator's Bracers of Meditation
+            { 19, 70530 }, -- Vicious Gladiator's Bracers of Prowess
+        },
         [SET5_DIFF] = {
             { 1, 70502 }, -- Ruthless Gladiator's Greaves of Alacrity
             { 2, 70503 }, -- Ruthless Gladiator's Greaves of Meditation
@@ -800,6 +853,20 @@ data["ArenaS10PvP"] = {
             { 20, [ATLASLOOT_IT_ALLIANCE] = 70390, [ATLASLOOT_IT_HORDE] = 70393}, -- Ruthless Gladiator's Medallion of Cruelty
             { 21, [ATLASLOOT_IT_ALLIANCE] = 70391, [ATLASLOOT_IT_HORDE] = 70394}, -- Ruthless Gladiator's Medallion of Meditation
             { 22, [ATLASLOOT_IT_ALLIANCE] = 70392, [ATLASLOOT_IT_HORDE] = 70395}, -- Ruthless Gladiator's Medallion of Tenacity
+        },
+        [SET6_DIFF] = {
+            { 1, 70517 }, -- Vicious Gladiator's Badge of Conquest
+            { 2, 70518 }, -- Vicious Gladiator's Badge of Dominance
+            { 3, 70519 }, -- Vicious Gladiator's Badge of Victory
+            { 5, 70563 }, -- Vicious Gladiator's Emblem of Cruelty
+            { 6, 70564 }, -- Vicious Gladiator's Emblem of Meditation
+            { 7, 70565 }, -- Vicious Gladiator's Emblem of Tenacity
+            { 16, 70577 }, -- Vicious Gladiator's Insignia of Conquest
+            { 17, 70578 }, -- Vicious Gladiator's Insignia of Dominance
+            { 18, 70579 }, -- Vicious Gladiator's Insignia of Victory
+            { 20, [ATLASLOOT_IT_ALLIANCE] = 70603, [ATLASLOOT_IT_HORDE] = 70602}, -- Vicious Gladiator's Medallion of Cruelty
+            { 21, [ATLASLOOT_IT_ALLIANCE] = 70604, [ATLASLOOT_IT_HORDE] = 70605}, -- Vicious Gladiator's Medallion of Meditation
+            { 22, [ATLASLOOT_IT_ALLIANCE] = 70606, [ATLASLOOT_IT_HORDE] = 70607}, -- Vicious Gladiator's Medallion of Tenacity
         },
     }, {
         name = AL["Gladiator Mount"],

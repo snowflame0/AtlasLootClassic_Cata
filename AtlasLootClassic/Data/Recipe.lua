@@ -2585,6 +2585,24 @@ if AtlasLoot:GameVersion_GE(AtlasLoot.CATA_VERSION_NUM) then
 		[52431] = {14,465,73383}, -- Design: Zen Dream Emerald
 		[71892] = {14,525,101748}, -- Design: Zen Elven Peridot
 		[52388] = {14,425,73280}, -- Design: Zen Jasper
+	        [69976] = {8,525,99460}, -- Pattern: Boots of the Black Flame
+	        [69966] = {8,525,99449}, -- Pattern: Don Tayos Inferno Mittens
+	        [69975] = {8,525,99459}, -- Pattern: Endless Dream Walkers
+	        [69965] = {8,525,99448}, -- Pattern: Grips of Altered Reality
+		[69962] = {3,525,99446}, -- Pattern: Clutches of Evil
+		[69960] = {3,525,99443}, -- Pattern: Dragonfire Gloves
+		[69971] = {3,525,99455}, -- Pattern: Earthen Scale Sabatons
+		[69974] = {3,525,99458}, -- Pattern: Ethereal Footfalls
+		[69972] = {3,525,99456}, -- Pattern: Footwraps of Quenched Fire
+		[69961] = {3,525,99445}, -- Pattern: Gloves of Unforgiving Flame
+		[69963] = {3,525,99447}, -- Pattern: Heavenly Gloves of the Moon
+		[69973] = {3,525,99457}, -- Pattern: Treads of the Craft
+		[69970] = {2,525,99454}, -- Plans: Emberforged Elementium Boots
+		[69969] = {2,525,99453}, -- Plans: Mirrored Boots
+		[69968] = {2,525,99452}, -- Plans: Warboots of Mighty Lords
+		[69958] = {2,525,99440}, -- Plans: Eternal Elementium Handguards
+		[69957] = {2,525,99439}, -- Plans: Fists of Fury
+		[69959] = {2,525,99441}, -- Plans: Holy Flame Gauntlets
 		--[recipe] = {scroll#,skill,spell},
 	}
 end

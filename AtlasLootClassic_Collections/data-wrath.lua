@@ -1020,6 +1020,7 @@ data["MountsWrath"] = {
         {9, 43952}, -- Reins of the Azure Drake
         {10, 43951}, -- Reins of the Bronze Drake
         {11, 43953}, -- Reins of the Blue Drake
+        {13, 49636}, -- Reins of the Onyxian Drake
         {16, 44168}, -- Reins of the Time-Lost Proto-Drake
         {17, 44151}, -- Reins of the Blue Proto-Drake
         {18, 44707}, -- Reins of the Green Proto-Drake
