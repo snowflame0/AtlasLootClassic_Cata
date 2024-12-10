@@ -2228,11 +2228,25 @@ data["MagistersTerrace"] = {
                 { 11, 34798 }, -- Band of Celerity
                 { 12, 34794 }, -- Axe of Shattered Dreams
                 { 13, 34797 }, -- Sun-infused Focus Staff
-                { 16, 35504 }, -- Phoenix Hatchling
-                { 18, 35311 }, -- Schematic: Mana Potion Injector
-                { 19, 35304 }, -- Design: Solid Star of Elune
-                { 20, 35294 }, -- Recipe: Elixir of Empowerment
-                { 22, 34157 }, -- Head of Kael'thas
+                { 14, 35504 }, -- Phoenix Hatchling
+                { 15, 35304 }, -- Design: Solid Star of Elune
+                { 16, 35305 }, -- Design: Brilliant Living Ruby
+                { 17, 35306 }, -- Design: Delicate Living Ruby
+                { 18, 35307 }, -- Design: Rigid Star of Elune
+                { 19, 35297 }, -- Formula: Enchant Boots - Boar's Speed
+                { 20, 35298 }, -- Formula: Enchant Boots - Vitality
+                { 21, 35299 }, -- Formula: Enchant Boots - Cat's Swiftness
+                { 22, 35300 }, -- Pattern: Windstrike Gloves
+                { 23, 35301 }, -- Pattern: Netherdrake Gloves
+                { 24, 35302 }, -- Pattern: Cobrascale Gloves
+                { 25, 35303 }, -- Pattern: Gloves of the Living Touch
+                { 26, 35308 }, -- Pattern: Unyielding Bracers
+                { 27, 35309 }, -- Pattern: Unyielding Girdle
+                { 28, 35296 }, -- Plans: Adamantite Weapon Chain
+                { 29, 35294 }, -- Recipe: Elixir of Empowerment
+                { 30, 35295 }, -- Recipe: Haste Potion
+                { 31, 35310 }, -- Schematic: Healing Potion Injector
+                { 32, 35311 }, -- Schematic: Mana Potion Injector
             },
             [HEROIC_DIFF] = {
                 { 1, 29434 }, -- Badge of Justice
@@ -2244,11 +2258,26 @@ data["MagistersTerrace"] = {
                 { 7, 34611 }, -- Cudgel of Consecration
                 { 8, 34609 }, -- Quickening Blade of the Prince
                 { 9, 34616 }, -- Breeching Comet
-                { 16, 35513 }, -- Swift White Hawkstrider
-                { 18, 35504 }, -- Phoenix Hatchling
-                { 20, 35311 }, -- Schematic: Mana Potion Injector
-                { 21, 35304 }, -- Design: Solid Star of Elune
-                { 22, 35294 }, -- Recipe: Elixir of Empowerment
+                { 11, 35513 }, -- Swift White Hawkstrider
+                { 13, 35504 }, -- Phoenix Hatchling
+                { 15, 35304 }, -- Design: Solid Star of Elune
+                { 16, 35305 }, -- Design: Brilliant Living Ruby
+                { 17, 35306 }, -- Design: Delicate Living Ruby
+                { 18, 35307 }, -- Design: Rigid Star of Elune
+                { 19, 35297 }, -- Formula: Enchant Boots - Boar's Speed
+                { 20, 35298 }, -- Formula: Enchant Boots - Vitality
+                { 21, 35299 }, -- Formula: Enchant Boots - Cat's Swiftness
+                { 22, 35300 }, -- Pattern: Windstrike Gloves
+                { 23, 35301 }, -- Pattern: Netherdrake Gloves
+                { 24, 35302 }, -- Pattern: Cobrascale Gloves
+                { 25, 35303 }, -- Pattern: Gloves of the Living Touch
+                { 26, 35308 }, -- Pattern: Unyielding Bracers
+                { 27, 35309 }, -- Pattern: Unyielding Girdle
+                { 28, 35296 }, -- Plans: Adamantite Weapon Chain
+                { 29, 35294 }, -- Recipe: Elixir of Empowerment
+                { 30, 35295 }, -- Recipe: Haste Potion
+                { 31, 35310 }, -- Schematic: Healing Potion Injector
+                { 32, 35311 }, -- Schematic: Mana Potion Injector
             }
         },
         { -- SMTTrash
