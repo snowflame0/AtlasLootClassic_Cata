@@ -1541,19 +1541,24 @@ data["WinterVeilCata"] = {
             [NORMAL_DIFF] = {
                 { 1,  17201 }, -- Recipe: Egg Nog
                 { 2,  17200 }, -- Recipe: Gingerbread Cookie
-                { 3,  17344 }, -- Candy Cane
-                { 4,  17406 }, -- Holiday Cheesewheel
-                { 5,  17407 }, -- Graccu's Homemade Meat Pie
-                { 6,  17408 }, -- Spicy Beefstick
-                { 7,  17404 }, -- Blended Bean Brew
-                { 8,  17405 }, -- Green Garden Tea
-                { 9,  17196 }, -- Holiday Spirits
-                { 10, 17403 }, -- Steamwheedle Fizzy Spirits
-                { 11, 17402 }, -- Greatfather's Winter Ale
-                { 12, 17194 }, -- Holiday Spices
-                { 16, 17303 }, -- Blue Ribboned Wrapping Paper
-                { 17, 17304 }, -- Green Ribboned Wrapping Paper
-                { 18, 17307 }, -- Purple Ribboned Wrapping Paper
+                { 3,  34413 }, -- Recipe: Hot Apple Cider
+                { 4,  34261 }, -- Pattern: Green Winter Clothes
+                { 5,  34262 }, -- Pattern: Winter Boots
+                { 6,  17344 }, -- Candy Cane
+                { 7,  17406 }, -- Holiday Cheesewheel
+                { 8,  17407 }, -- Graccu's Homemade Meat Pie
+                { 9,  17408 }, -- Spicy Beefstick
+                { 10,  34410 }, -- Honeyed Holiday Ham
+                { 11,  17404 }, -- Blended Bean Brew
+                { 12,  17405 }, -- Green Garden Tea
+                { 13,  34412 }, -- Sparkling Apple Cider
+                { 14,  17196 }, -- Holiday Spirits
+                { 15, 17403 }, -- Steamwheedle Fizzy Spirits
+                { 16, 17402 }, -- Greatfather's Winter Ale
+                { 17, 17194 }, -- Holiday Spices
+                { 18, 17303 }, -- Blue Ribboned Wrapping Paper
+                { 19, 17304 }, -- Green Ribboned Wrapping Paper
+                { 20, 17307 }, -- Purple Ribboned Wrapping Paper
             },
         },
         {

@@ -2395,7 +2395,7 @@ data["Stratholme"] = {
             },
         },
         { -- STRATCannonMasterWilley
-            name = AL["Cannon Master Willey"],
+            name = AL["Willey Hopebreaker"],
             NameColor = GREEN,
             npcID = 10997,
             Level = 60,
@@ -2417,7 +2417,7 @@ data["Stratholme"] = {
             },
         },
         { -- STRATArchivistGalford
-            name = AL["Archivist Galford"],
+            name = AL["Instructor Galford"],
             NameColor = GREEN,
             npcID = 10811,
             Level = 60,
@@ -2583,7 +2583,7 @@ data["Stratholme"] = {
             },
         },
         { -- STRATBaronRivendare
-            name = AL["Baron Rivendare"],
+            name = AL["Lord Aurius Rivendare"],
             NameColor = PURP,
             npcID = 10440,
             Level = 62,
