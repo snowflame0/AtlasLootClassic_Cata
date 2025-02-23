@@ -4717,7 +4717,7 @@ ExtraList = true,
 },
 },
 { -- Geode Trader
-name = AL["Geode"] .. " " .. AL["Vendor"],
+name = ALIL["Geode Vendor"],
 ExtraList = true,
 [NORMAL_DIFF] = {
     { 1, 78890 }, -- Crystalline Geode

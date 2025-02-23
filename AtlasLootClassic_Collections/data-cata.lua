@@ -739,24 +739,26 @@ data["ObsidianFragments"] = {
             { 3, 69109 }, -- Scales of Life
             { 4, 69138 }, -- Spidersilk Spindle
             { 5, 69112 }, -- The Hungerer
-            { 6, 69150 }, -- Matrix Restabilizer
-            { 7, 69110 }, -- Variable Pulse Lightning Capacitor
-            { 8, 69167 }, -- Vessel of Acceleration
-            { 10, 77977 }, -- Eye of Unmaking
-            { 11, 77976 }, -- Heart of Unliving
-            { 12, 77975 }, -- Will of Unbinding
-            { 13, 77974 }, -- Wrath of Unchaining
-            { 14, 77978 }, -- Resolved of Undying
-            { 16, 77969 }, -- Seal of the Seven Signs
-            { 17, 77971 }, -- Insignia of the Corrupted Mind
-            { 18, 77970 }, -- Soulshifter Vortex
-            { 19, 77972 }, -- Creche of the Final Dragon
-            { 20, 77973 }, -- Starcatcher Compass
-            { 21, 77982 }, -- Bone-link Fetish
-            { 22, 77980 }, -- Cunning of the Cruel
-            { 23, 77983 }, -- Indomitble Pride
-            { 24, 77979 }, -- Vial of Shadows
-            { 25, 77981 }, -- Windward Heart
+            { 6, 69113 }, -- Apparatus of Khaz'goroth
+            { 7, 69139 }, -- Necromantic Focus
+            { 8, 69150 }, -- Matrix Restabilizer
+            { 9, 69110 }, -- Variable Pulse Lightning Capacitor
+            { 10, 69167 }, -- Vessel of Acceleration
+            { 12, 77977 }, -- Eye of Unmaking
+            { 13, 77976 }, -- Heart of Unliving
+            { 14, 77975 }, -- Will of Unbinding
+            { 15, 77974 }, -- Wrath of Unchaining
+            { 16, 77978 }, -- Resolved of Undying
+            { 18, 77969 }, -- Seal of the Seven Signs
+            { 19, 77971 }, -- Insignia of the Corrupted Mind
+            { 20, 77970 }, -- Soulshifter Vortex
+            { 21, 77972 }, -- Creche of the Final Dragon
+            { 22, 77973 }, -- Starcatcher Compass
+            { 23, 77982 }, -- Bone-link Fetish
+            { 24, 77980 }, -- Cunning of the Cruel
+            { 25, 77983 }, -- Indomitble Pride
+            { 26, 77979 }, -- Vial of Shadows
+            { 27, 77981 }, -- Windward Heart
          }
     },
     {
