@@ -1489,6 +1489,33 @@ data["ValentinesdayCata"] = {
     } }
 }
 
+data["NoblegardenCata"] = {
+    name = AL["Noblegarden"],
+    ContentType = WORLD_EVENT_CONTENT,
+    LoadDifficulty = NORMAL_DIFF,
+    TableType = NORMAL_ITTYPE,
+    gameVersion = AtlasLoot.CATA_VERSION_NUM,
+    CorrespondingFields = private.NOBLEGARDEN,
+    items = { {
+            name = AL["Noblegarden Vendor"],
+            [NORMAL_DIFF] = {
+                { 1,  44818 }, -- Noblegarden Egg
+                { 2,  45073 }, -- Spring Flowers
+                { 3,  44792 }, -- Blossoming Branch
+                { 5,  44800 }, -- Spring Robes
+                { 6,  19028 }, -- Elegant Dress
+                { 7,  6833 }, -- White Tux Shirt
+                { 8,  6835 }, -- Black Tux Pants
+                { 16, 44803 }, -- Spring Circlet
+                { 17, 74282 }, -- Spring Circlet Black
+                { 18, 74283 }, -- Spring Circlet Pink
+                { 20, 44794 }, -- Spring Rabbit Foot
+                { 21, 72145 }, -- Swift Springstrider
+            },
+        },
+    },
+}
+
 data["MidsummerFestivalCata"] = {
     name = AL["Midsummer Festival"],
     ContentType = WORLD_EVENT_CONTENT,

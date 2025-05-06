@@ -71,19 +71,6 @@ local PURPLE = "|cff9900ff%s|r"
 -- format
 local BONUS_LOOT_SPLIT = "%s - %s"
 
-local KEYS = { -- Keys
-    name = AL["Keys"],
-    TableType = NORMAL_ITTYPE,
-    ExtraList = true,
-    IgnoreAsSource = true,
-    [NORMAL_DIFF] = {{1, "INV_Box_01", nil, AL["Normal"], nil}, {2, 44582}, -- Key to the Focusing Iris
-    {3, 45796}, -- Celestial Planetarium Key
-    {4, 42482}, -- The Violet Hold Key
-    {16, "INV_Box_01", nil, AL["Heroic"], nil}, {17, 44581}, -- Heroic Key to the Focusing Iris
-    {18, 45798} -- Heroic Celestial Planetarium Key
-    }
-}
-
 local T7_SET = {
     name = format(AL["Tier %s Sets"], "7"),
     ExtraList = true,
@@ -669,7 +656,7 @@ data["AhnKahet"] = {
         [HEROIC_DIFF] = {{1, 37625}, -- Web Winder Gloves
         {2, 37624} -- Stained-Glass Shard Ring
         }
-    }, KEYS, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
+    }, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
 }
 
 data["AzjolNerub"] = {
@@ -831,7 +818,7 @@ data["AzjolNerub"] = {
         {2, 37625}, -- Web Winder Gloves
         {3, 37624} -- Stained-Glass Shard Ring
         }
-    }, KEYS, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
+    }, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
 }
 
 data["DrakTharonKeep"] = {
@@ -1020,7 +1007,7 @@ data["DrakTharonKeep"] = {
         {2, 37800}, -- Aviary Guardsman's Hauberk
         {3, 37801} -- Waistguard of the Risen Knight
         }
-    }, KEYS, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
+    }, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
 }
 
 data["Gundrak"] = {
@@ -1236,7 +1223,7 @@ data["Gundrak"] = {
         {2, 37648}, -- Belt of Tasseled Lanterns
         {3, 37646} -- Burning Skull Pendant
         }
-    }, KEYS, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
+    }, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
 }
 
 data["HallsofLightning"] = {
@@ -1443,7 +1430,7 @@ data["HallsofLightning"] = {
         {2, 37857}, -- Helm of the Lightning Halls
         {3, 37856} -- Librarian's Paper Cutter
         }
-    }, KEYS, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
+    }, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
 }
 
 data["HallsofStone"] = {
@@ -1634,7 +1621,7 @@ data["HallsofStone"] = {
         {2, 37672}, -- Patina-Coated Breastplate
         {3, 37671} -- Refined Ore Gloves
         }
-    }, KEYS, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
+    }, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
 }
 
 data["TheCullingOfStratholme"] = {
@@ -1856,7 +1843,7 @@ data["TheCullingOfStratholme"] = {
         {2, 37116}, -- Epaulets of Market Row
         {3, 37115}, -- Crusader's Square Pauldrons
         {16, "ac1872"}}
-    }, KEYS, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
+    }, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
 }
 
 data["TheNexus"] = {
@@ -2069,7 +2056,7 @@ data["TheNexus"] = {
         {129, 45651}, -- Leggings of the Wayward Protector
         {130, 45652} -- Leggings of the Wayward Vanquisher
         }
-    }, KEYS, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
+    }, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
 }
 
 data["TheOculus"] = {
@@ -2284,7 +2271,7 @@ data["TheOculus"] = {
         {3, 37290}, -- Dragon Prow Amulet
         {4, 37364} -- Frostbridge Orb
         }
-    }, KEYS, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
+    }, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
 }
 
 data["VioletHold"] = {
@@ -2572,7 +2559,7 @@ data["VioletHold"] = {
         {5, 37889}, -- Prison Manifest
         {6, 35652} -- Incessant Torch
         }
-    }, KEYS}
+    }, }
 }
 
 data["UtgardeKeep"] = {
@@ -2733,7 +2720,7 @@ data["UtgardeKeep"] = {
         [HEROIC_DIFF] = {{1, 37197}, -- Tattered Castle Drape
         {2, 37196} -- Runecaster's Mantle
         }
-    }, KEYS, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
+    }, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
 }
 
 data["UtgardePinnacle"] = {
@@ -2938,7 +2925,7 @@ data["UtgardePinnacle"] = {
         {2, 37590}, -- Bands of Fading Light
         {3, 37410} -- Tracker's Balanced Knives
         }
-    }, KEYS, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
+    }, WOTLK_DUNGEONMASTER_AC_TABLE, WOTLK_DUNGEON_HERO_AC_TABLE, WOTLK_GLORY_OF_THE_HERO_AC_TABLE}
 }
 
 data["TrialoftheChampion"] = {
@@ -3159,7 +3146,7 @@ data["TrialoftheChampion"] = {
         {129, 45651}, -- Leggings of the Wayward Protector
         {130, 45652} -- Leggings of the Wayward Vanquisher
         }
-    }, KEYS}
+    }, }
 }
 
 local ICC_DUNGEONS_TRASH = { -- Trash
@@ -3241,7 +3228,7 @@ data["ForgeOfSouls"] = {
         {12, 50210}, -- Seethe
         {16, 43102}, -- Frozen Orb
         {18, "ac4523"}}
-    }, ICC_DUNGEONS_TRASH, KEYS}
+    }, ICC_DUNGEONS_TRASH}
 }
 
 data["PitOfSaron"] = {
@@ -3320,7 +3307,7 @@ data["PitOfSaron"] = {
         {12, 50273}, -- Engraved Gargoyle Femur
         {16, 43102}, -- Frozen Orb
         {18, "ac4525"}}
-    }, ICC_DUNGEONS_TRASH, KEYS}
+    }, ICC_DUNGEONS_TRASH}
 }
 
 data["HallsOfReflection"] = {
@@ -3399,7 +3386,7 @@ data["HallsOfReflection"] = {
         {12, 50303}, -- Black Icicle
         {16, 43102}, -- Frozen Orb
         {18, "ac4526"}}
-    }, ICC_DUNGEONS_TRASH, KEYS}
+    }, ICC_DUNGEONS_TRASH}
 }
 
 -- ## RAIDS
@@ -3899,7 +3886,7 @@ data["TheEyeOfEternity"] = {
         {24, 44577}, -- Heroic Key to the Focusing Iris
         {25, 44651} -- Heart of Magic
         }
-    }, KEYS}
+    }, }
 }
 
 data["ObsidianSanctum"] = {
@@ -6659,5 +6646,5 @@ data["VaultofArchavon"] = {
                          {108, "SLOT_FINGER", nil, ALIL["Finger"], nil, "VoA_T_FINGER_25"},
                          {116, AtlasLoot:GetRetByFaction(44083, 43959)} -- Reins of the Grand Black War Mammoth
         }
-    }, KEYS}
+    }, }
 }

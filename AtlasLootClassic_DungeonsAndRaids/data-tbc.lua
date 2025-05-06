@@ -47,34 +47,6 @@ local NAME_HELLFIRE_CITADEL = NAME_COLOR..AL["HC"]..":|r %s"-- Hellfire Citadel
 local NAME_KARA_QUARTERS = NAME_COLOR_BOSS..AL["Servant Quarters"]..":|r %s" -- Servant Quarters
 local NAME_KARA_OPERA = NAME_COLOR_BOSS..AL["The Opera Event"]..":|r %s" -- The Opera Even
 
-
-local KEYS = {	-- Keys
-	name = AL["Keys"],
-	TableType = NORMAL_ITTYPE,
-	ExtraList = true,
-	IgnoreAsSource = true,
-	[NORMAL_DIFF] = {
-        { 1, "INV_Box_01", nil, AL["Normal"], nil },
-		{ 2, 27991 }, -- Shadow Labyrinth Key
-		{ 3, 28395 }, -- Shattered Halls Key
-		{ 4, 31084 }, -- Key to the Arcatraz
-		{ 6, "INV_Box_01", nil, AL["Heroic"], nil },
-		{ 7, 30637, [ATLASLOOT_IT_ALLIANCE] = 30622 }, -- Flamewrought Key
-		{ 8, 30623 }, -- Reservoir Key
-		{ 9, 30633 }, -- Auchenai Key
-		{ 10, 30635 }, -- Key of Time
-		{ 11, 30634 }, -- Warpforged Key
-		{ 16, "INV_Box_01", nil, AL["Raid"], nil },
-		{ 17, 32649 }, -- Medallion of Karabor
-		{ 18, 31704 }, -- The Tempest Key
-		{ 19, 24490 }, -- The Master's Key
-		{ 21, "INV_Box_01", nil, AL["Misc"], nil },
-		{ 22, 32092 }, -- The Eye of Haramad
-		{ 23, 24140 }, -- Blackened Urn
-		{ 24, 32449 }, -- Essence-Infused Moonstone
-    }
-}
-
 local T4_SET = {
 	name = format(AL["Tier %s Sets"], "4"),
 	ExtraList = true,
@@ -263,7 +235,6 @@ data["HellfireRamparts"] = {
                 { 25, 23891 }, -- Ominous Letter
             }
         },
-        KEYS
     }
 }
 
@@ -359,7 +330,6 @@ data["TheBloodFurnace"] = {
                 { 28, 33814 }, -- Keli'dan's Feathered Stave
             }
         },
-        KEYS
     }
 }
 
@@ -507,7 +477,6 @@ data["TheShatteredHalls"] = {
                 { 1, 22554 }, -- Formula: Enchant 2H Weapon - Savagery
             }
         },
-        KEYS
     }
 }
 
@@ -643,7 +612,6 @@ data["Mana-Tombs"] = {
                 { 3, 22543 }, -- Formula: Enchant Boots - Fortitude
             }
         },
-        KEYS
     }
 }
 
@@ -735,7 +703,6 @@ data["AuchenaiCrypts"] = {
                 { 3, 22544 }, -- Formula: Enchant Boots - Dexterity
             }
         },
-        KEYS
 	},
 }
 
@@ -859,7 +826,6 @@ data["SethekkHalls"] = {
                 { 3, 29669 }, -- Pattern: Shadow Armor Kit
             }
         },
-        KEYS
     }
 }
 
@@ -1018,7 +984,6 @@ data["ShadowLabyrinth"] = {
                 { 1, 23607 }, -- Plans: Felsteel Helm
             }
         },
-        KEYS
     }
 }
 
@@ -1138,7 +1103,6 @@ data["TheSlavePens"] = {
                 { 20, 35557 }, -- Huge Snowball
             },
         }),
-        KEYS
     }
 }
 
@@ -1263,7 +1227,6 @@ data["TheUnderbog"] = {
                 { 28, 33826 }, -- Black Stalker Egg
             }
         },
-        KEYS
     }
 }
 
@@ -1385,7 +1348,6 @@ data["TheSteamvault"] = {
                 { 6, 24368 }, -- Coilfang Armaments
             }
         },
-        KEYS
     }
 }
 
@@ -1532,7 +1494,6 @@ data["OldHillsbradFoothills"] = {
                 { 1, 25729 }, -- Pattern: Stylin' Adventure Hat
             }
         },
-        KEYS
     }
 }
 
@@ -1648,7 +1609,6 @@ data["TheBlackMorass"] = {
                 { 1, 25730 }, -- Pattern: Stylin' Jungle Hat
             }
         },
-        KEYS
     }
 }
 
@@ -1797,7 +1757,6 @@ data["TheArcatraz"] = {
                 { 5, 21905 }, -- Pattern: Arcanoweave Bracers
             }
         },
-        KEYS
     }
 }
 
@@ -1970,7 +1929,6 @@ data["TheBotanica"] = {
                 { 1, 24172 }, -- Design: Coronet of Verdant Flame
             }
         },
-        KEYS
     }
 }
 
@@ -2286,7 +2244,6 @@ data["MagistersTerrace"] = {
                 { 1, 35516 }, -- Sun Touched Satchel
             }
         },
-        KEYS
     }
 }
 

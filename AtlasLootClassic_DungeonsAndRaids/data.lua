@@ -56,44 +56,6 @@ local WHIT = "|cffffffff%s|r"
 local NAME_COLOR, NAME_COLOR_BOSS = "|cffC0C0C0", "|cffC0C0C0"
 local NAME_BRD_RING_OF_LAW = NAME_COLOR_BOSS..AL["Ring of Law"]..":|r %s" -- Tempest Keep
 
-local KEYS = {	-- Keys
-    name = AL["Keys"],
-    TableType = NORMAL_ITTYPE,
-    ExtraList = true,
-    IgnoreAsSource = true,
-    [NORMAL_DIFF] = {
-        { 1, "INV_Box_01", nil, AL["Key"], nil },
-        { 2, 16309,},
-        { 3, 12344,},
-        { 4, 17191,},
-        { 5, 7146, },
-        { 6, 12382,},
-        { 7, 6893, },
-        { 8, 11000,},
-        { 9, 11140,},
-        { 10, 18249, },
-        { 11, 13704, },
-        { 12, 11197, },
-        { 13, 18266, },
-        { 14, 18268, },
-        { 15, 13873, },
-        { 16, "INV_Box_01", nil, AL["Misc"], nil },
-        { 17, 19931 },
-        { 18, 18250 },
-        { 19, 9240 },
-        { 20, 17333 },
-        { 21, 22754 },
-        { 22, 13523 },
-        { 23, 18746 },
-        { 24, 18663 },
-        { 25, 19974 },
-        { 26, 7733 },
-        { 27, 10818 },
-        { 29, 22057 },
-        { 30, 21986 },
-    },
-}
-
 local T1_SET = {
     name = format(AL["Tier %s Sets"], "1"),
     ExtraList = true,
@@ -178,7 +140,6 @@ local AQ_SCARABS = { -- AQ40Trash2
         { 6,  20877 }, -- Idol of the Sage
         { 7,  20874 }, -- Idol of the Sun
         { 8,  20882 }, -- Idol of War
-        { 10, 21762 }, -- Greater Scarab Coffer Key
         { 12, 21156 }, -- Scarab Bag
         { 14, 21230 }, -- Ancient Qiraji Artifact
         { 16, 20864 }, -- Bone Scarab
@@ -1026,7 +987,6 @@ data["ScarletMonasteryGraveyard"] = {
                 { 24, 33154 }, -- Sinister Squashling
             }
         }),
-        KEYS,
     },
 }
 
@@ -1095,14 +1055,6 @@ data["ScarletMonasteryLibrary"] = {
                 { 23, 7757 }, -- Windweaver Staff
             },
         },
-        {
-            name = AL["Doan's Strongbox"],
-            ExtraList = true,
-            [NORMAL_DIFF] = {
-                { 1,  7146 }, -- The Scarlet Key
-            },
-        },
-        KEYS,
     },
 }
 
@@ -1334,7 +1286,6 @@ data["ScarletMonasteryArmory"] = {
                 { 26, 23192 }, -- Tabard of the Scarlet Crusade
             },
         },
-        KEYS,
     },
 }
 
@@ -1414,7 +1365,6 @@ data["ScarletMonasteryCathedral"] = {
                 { 27, 10329 }, -- Scarlet Belt
             },
         },
-        KEYS,
     },
 }
 
@@ -2034,7 +1984,6 @@ data["Scholomance"] = {
                 { 5,  22333 }, -- Hammer of Divine Might
             },
         },
-        KEYS,
     },
 }
 
@@ -2145,7 +2094,6 @@ data["DireMaulEast"] = {
             },
         },
         DM_BOOKS,
-        KEYS,
     },
 }
 
@@ -2691,7 +2639,6 @@ data["Stratholme"] = {
                 { 5,  22329 }, -- Scepter of Interminable Focus
             },
         },
-        KEYS,
     },
 }
 
@@ -2844,7 +2791,6 @@ data["DireMaulWest"] = {
             },
         },
         DM_BOOKS,
-        KEYS,
     },
 }
 
@@ -2877,7 +2823,6 @@ data["DireMaulNorth"] = {
                 { 13, 18464 }, -- Gordok Nose Ring
                 { 14, 18460 }, -- Unsophisticated Hand Cannon
                 { 16, 18250 }, -- Gordok Shackle Key
-                { 17, 18268 }, -- Gordok Inner Door Key
             },
         },
         { -- DMNStomperKreeg
@@ -2910,8 +2855,6 @@ data["DireMaulNorth"] = {
                 { 7,  18464 }, -- Gordok Nose Ring
                 { 8,  18460 }, -- Unsophisticated Hand Cannon
                 { 10, 18250 }, -- Gordok Shackle Key
-                { 16, "INV_Box_01", nil, AL["Fengus's Chest"], nil },
-                { 17, 18266 }, -- Gordok Courtyard Key
             },
         },
         { -- DMNGuardSlipkik
@@ -3039,7 +2982,6 @@ data["DireMaulNorth"] = {
             },
         },
         DM_BOOKS,
-        KEYS,
     },
 }
 
@@ -5522,9 +5464,9 @@ data["TheRuinsofAhnQiraj"] = { -- AQ20
             Level = 999,
             DisplayIDs = {{15654}},
             [NORMAL_DIFF] = {
-                { 1,  21487, [ATLASLOOT_IT_ALLIANCE] = 21486 }, -- Slimy Scaled Gauntlets
-                --{ 2,  21486 }, -- Gloves of the Swarm
-                { 2,  21485 }, -- Buru's Skull Fragment
+                { 1,  21487 }, -- Slimy Scaled Gauntlets
+                { 2,  21486 }, -- Gloves of the Swarm
+                { 3,  21485 }, -- Buru's Skull Fragment
                 { 5,  21491 }, -- Scaled Bracers of the Gorger
                 { 6,  21489 }, -- Quicksand Waders
                 { 7,  21490 }, -- Slime Kickers
@@ -5566,19 +5508,19 @@ data["TheRuinsofAhnQiraj"] = { -- AQ20
             DisplayIDs = {{15432}},
             [NORMAL_DIFF] = {
                 { 1,  21460 }, -- Helm of Domination
-                { 2,  21454, [ATLASLOOT_IT_ALLIANCE] = 21453 }, -- Runic Stone Shoulders
-                --{ 3,  21453 }, -- Mantle of the Horusath
-                { 3,  21456 }, -- Sandstorm Cloak
-                { 4,  21464 }, -- Shackles of the Unscarred
-                { 5,  21457 }, -- Bracers of Brutality
-                { 6,  21462 }, -- Gloves of Dark Wisdom
-                { 7,  21458 }, -- Gauntlets of New Life
-                { 8,  21463 }, -- Ossirian's Binding
-                { 9, 21461 }, -- Leggings of the Black Blizzard
-                { 10, 21454 }, -- Runic Stone Shoulders
-                { 11, 21459 }, -- Crossbow of Imminent Doom
-                { 12, 21715 }, -- Sand Polished Hammer
-                { 13, 21452 }, -- Staff of the Ruins
+                { 2,  21454 }, -- Runic Stone Shoulders
+                { 3,  21453 }, -- Mantle of the Horusath
+                { 4,  21456 }, -- Sandstorm Cloak
+                { 5,  21464 }, -- Shackles of the Unscarred
+                { 6,  21457 }, -- Bracers of Brutality
+                { 7,  21462 }, -- Gloves of Dark Wisdom
+                { 8,  21458 }, -- Gauntlets of New Life
+                { 9,  21463 }, -- Ossirian's Binding
+                { 10, 21461 }, -- Leggings of the Black Blizzard
+                { 11, 21454 }, -- Runic Stone Shoulders
+                { 12, 21459 }, -- Crossbow of Imminent Doom
+                { 13, 21715 }, -- Sand Polished Hammer
+                { 14, 21452 }, -- Staff of the Ruins
                 { 16, 20890 }, -- Qiraji Ornate Hilt
                 { 17, 20886 }, -- Qiraji Spiked Hilt
                 { 20, 20888 }, -- Qiraji Ceremonial Ring
@@ -5590,9 +5532,9 @@ data["TheRuinsofAhnQiraj"] = { -- AQ20
             name = AL["Trash"],
             ExtraList = true,
             [NORMAL_DIFF] = {
-                { 1,  21804, [ATLASLOOT_IT_ALLIANCE] = 21803 }, -- Coif of Elemental Fury
-                --{ 2,  21803 }, -- Helm of the Holy Avenger
-                { 2,  21805 }, -- Polished Obsidian Pauldrons
+                { 1,  21804 }, -- Coif of Elemental Fury
+                { 2,  21803 }, -- Helm of the Holy Avenger
+                { 3,  21805 }, -- Polished Obsidian Pauldrons
                 { 5,  20873 }, -- Alabaster Idol
                 { 6,  20869 }, -- Amber Idol
                 { 7,  20866 }, -- Azure Idol
@@ -5601,7 +5543,6 @@ data["TheRuinsofAhnQiraj"] = { -- AQ20
                 { 10, 20871 }, -- Obsidian Idol
                 { 11, 20867 }, -- Onyx Idol
                 { 12, 20872 }, -- Vermillion Idol
-                { 14, 21761 }, -- Scarab Coffer Key
                 { 15, 21156 }, -- Scarab Bag
                 { 16, 21801 }, -- Antenna of Invigoration
                 { 17, 21800 }, -- Silithid Husked Launcher

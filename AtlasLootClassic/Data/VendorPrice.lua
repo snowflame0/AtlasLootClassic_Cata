@@ -187,6 +187,9 @@ local PRICE_INFO_LIST = {
     ["EssenceOfCorruptedDeadwing"] = {
         currencyID = 615
     },
+    ["NoblegardenChocolate"] = {
+        itemID = 44791
+    },
 
     --- PvP
     ["honor"] = {
@@ -2674,6 +2677,19 @@ if AtlasLoot:GameVersion_GE(AtlasLoot.CATA_VERSION_NUM) then
         [239113] = "ObsidianFragment:25",
         [239114] = "ObsidianFragment:25",
         [239220] = "ObsidianFragment:25",
+         --noblegarden vendor
+        [44818] = "NoblegardenChocolate:5",
+        [45073] = "NoblegardenChocolate:50",
+        [44792] = "NoblegardenChocolate:10",
+        [44800] = "NoblegardenChocolate:50",
+        [19028] = "NoblegardenChocolate:50",
+        [6833] = "NoblegardenChocolate:25",
+        [6835] = "NoblegardenChocolate:25",
+        [44803] = "NoblegardenChocolate:50",
+        [74282] = "NoblegardenChocolate:50",
+        [74283] = "NoblegardenChocolate:50",
+        [44794] = "NoblegardenChocolate:100",
+        [72145] = "NoblegardenChocolate:500",
     }
 end
 

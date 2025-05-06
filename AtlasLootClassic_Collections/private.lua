@@ -85,3 +85,7 @@ private.WINTER_VEIL = {
     [AtlasLoot.CLASSIC_VERSION_NUM]     = "WinterVeil",
     [AtlasLoot.CATA_VERSION_NUM]        = "WinterVeilCata",
 }
+private.NOBLEGARDEN = {
+    [AtlasLoot.CLASSIC_VERSION_NUM]     = "Noblegarden",
+    [AtlasLoot.CATA_VERSION_NUM]        = "NoblegardenCata",
+}
