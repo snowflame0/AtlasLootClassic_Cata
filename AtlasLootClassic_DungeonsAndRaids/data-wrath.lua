@@ -3487,7 +3487,8 @@ data["NaxxramasWrath"] = {
         {22, 39766}, -- Matriarch's Spawn
         {23, 39763}, -- Wraith Strike
         {24, 39758}, -- The Jawbone
-        {26, "ac1858"}, {28, "ac1859"}}
+        {26, 93030}, -- Dusty Clutch of Eggs
+        {27, "ac1858"}, {28, "ac1859"}}
     }, -- The Plague Quarter
     { -- NAXNoththePlaguebringer
         name = AL["Noth the Plaguebringer"],
@@ -3569,7 +3570,8 @@ data["NaxxramasWrath"] = {
         {16, 40637}, -- Mantle of the Lost Conqueror
         {17, 40638}, -- Mantle of the Lost Protector
         {18, 40639}, -- Mantle of the Lost Vanquisher
-        {20, "ac2182"}, {22, "ac2183"}}
+        {20, 93032}, -- Blighted Spore
+        {21, "ac2182"}, {22, "ac2183"}}
     }, -- The Military Quarter
     { -- NAXInstructorRazuvious
         name = AL["Instructor Razuvious"],
@@ -3763,7 +3765,8 @@ data["NaxxramasWrath"] = {
         {118, 40627}, -- Breastplate of the Lost Vanquisher
         {120, 40634}, -- Legplates of the Lost Conqueror
         {121, 40635}, -- Legplates of the Lost Protector
-        {122, 40636} -- Legplates of the Lost Vanquisher
+        {122, 40636}, -- Legplates of the Lost Vanquisher
+        {124, 93029} -- Gluth's Bone
         }
     }, { -- NAXThaddius
         name = AL["Thaddius"],

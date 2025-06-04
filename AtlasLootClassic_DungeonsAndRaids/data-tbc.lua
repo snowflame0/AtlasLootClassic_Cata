@@ -48,92 +48,92 @@ local NAME_KARA_QUARTERS = NAME_COLOR_BOSS..AL["Servant Quarters"]..":|r %s" -- 
 local NAME_KARA_OPERA = NAME_COLOR_BOSS..AL["The Opera Event"]..":|r %s" -- The Opera Even
 
 local T4_SET = {
-	name = format(AL["Tier %s Sets"], "4"),
-	ExtraList = true,
-	TableType = SET_ITTYPE,
-	IgnoreAsSource = true,
-	[NORMAL_DIFF] = {
-		{ 1,    645 }, -- Warlock
-		{ 3,    663 }, -- Priest / Heal
+    name = format(AL["Tier %s Sets"], "4"),
+    ExtraList = true,
+    TableType = SET_ITTYPE,
+    IgnoreAsSource = true,
+    [NORMAL_DIFF] = {
+        { 1,    645 }, -- Warlock
+        { 3,    663 }, -- Priest / Heal
         { 4,    664 }, -- Priest / Shadow
         { 6,    621 }, -- Rogue
-		{ 8,    651 }, -- Hunter
-		{ 10,    654 }, -- Warrior / Prot
+        { 8,    651 }, -- Hunter
+        { 10,    654 }, -- Warrior / Prot
         { 11,    655 }, -- Warrior / DD
-		{ 16,   648 }, -- Mage
-		{ 18,   638 }, -- Druid / Heal
+        { 16,   648 }, -- Mage
+        { 18,   638 }, -- Druid / Heal
         { 19,   639 }, -- Druid / Owl
         { 20,   640 }, -- Druid / Feral
         { 22,   631 }, -- Shaman / Heal
         { 23,   632 }, -- Shaman / Ele
         { 24,   633 }, -- Shaman / Enh
-		{ 26,   624 }, -- Paladin / Heal
+        { 26,   624 }, -- Paladin / Heal
         { 27,   625 }, -- Paladin / Prot
         { 28,   626 }, -- Paladin / DD
-	},
+    },
 }
 
 local T5_SET = {
-	name = format(AL["Tier %s Sets"], "5"),
-	ExtraList = true,
-	TableType = SET_ITTYPE,
-	IgnoreAsSource = true,
-	[NORMAL_DIFF] = {
-		{ 1,    646 }, -- Warlock
-		{ 3,    665 }, -- Priest / Heal
+    name = format(AL["Tier %s Sets"], "5"),
+    ExtraList = true,
+    TableType = SET_ITTYPE,
+    IgnoreAsSource = true,
+    [NORMAL_DIFF] = {
+        { 1,    646 }, -- Warlock
+        { 3,    665 }, -- Priest / Heal
         { 4,    666 }, -- Priest / Shadow
         { 6,    622 }, -- Rogue
-		{ 8,    652 }, -- Hunter
-		{ 10,    656 }, -- Warrior / Prot
+        { 8,    652 }, -- Hunter
+        { 10,    656 }, -- Warrior / Prot
         { 11,    657 }, -- Warrior / DD
-		{ 16,   649 }, -- Mage
-		{ 18,   642 }, -- Druid / Heal
+        { 16,   649 }, -- Mage
+        { 18,   642 }, -- Druid / Heal
         { 19,   643 }, -- Druid / Owl
         { 20,   641 }, -- Druid / Feral
         { 22,   634 }, -- Shaman / Heal
         { 23,   635 }, -- Shaman / Ele
         { 24,   636 }, -- Shaman / Enh
-		{ 26,   627 }, -- Paladin / Heal
+        { 26,   627 }, -- Paladin / Heal
         { 27,   628 }, -- Paladin / Prot
         { 28,   629 }, -- Paladin / DD
-	},
+    },
 }
 
 local T6_SET = {
-	name = format(AL["Tier %s Sets"], "6"),
-	ExtraList = true,
-	TableType = SET_ITTYPE,
-	IgnoreAsSource = true,
-	[NORMAL_DIFF] = {
-		{ 1,    670 }, -- Warlock
-		{ 3,    675 }, -- Priest / Heal
+    name = format(AL["Tier %s Sets"], "6"),
+    ExtraList = true,
+    TableType = SET_ITTYPE,
+    IgnoreAsSource = true,
+    [NORMAL_DIFF] = {
+        { 1,    670 }, -- Warlock
+        { 3,    675 }, -- Priest / Heal
         { 4,    674 }, -- Priest / Shadow
         { 6,    668 }, -- Rogue
-		{ 8,    669 }, -- Hunter
-		{ 10,    673 }, -- Warrior / Prot
+        { 8,    669 }, -- Hunter
+        { 10,    673 }, -- Warrior / Prot
         { 11,    672 }, -- Warrior / DD
-		{ 16,   671 }, -- Mage
-		{ 18,   678 }, -- Druid / Heal
+        { 16,   671 }, -- Mage
+        { 18,   678 }, -- Druid / Heal
         { 19,   677 }, -- Druid / Owl
         { 20,   676 }, -- Druid / Feral
         { 22,   683 }, -- Shaman / Heal
         { 23,   684 }, -- Shaman / Ele
         { 24,   682 }, -- Shaman / Enh
-		{ 26,   681 }, -- Paladin / Heal
+        { 26,   681 }, -- Paladin / Heal
         { 27,   679 }, -- Paladin / Prot
         { 28,   680 }, -- Paladin / DD
-	},
+    },
 }
 
 
 data["HellfireRamparts"] = {
     nameFormat = NAME_HELLFIRE_CITADEL,
-	MapID = 3562,
-	InstanceID = 543,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {57, 59, 67},
-	items = {
+    MapID = 3562,
+    InstanceID = 543,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {57, 59, 67},
+    items = {
         { -- HCRampWatchkeeper
             name = AL["Watchkeeper Gargolmar"],
             npcID = {17306,18436},
@@ -240,12 +240,12 @@ data["HellfireRamparts"] = {
 
 data["TheBloodFurnace"] = {
     nameFormat = NAME_HELLFIRE_CITADEL,
-	MapID = 3713,
-	InstanceID = 542,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {58, 60, 68},
-	items = {
+    MapID = 3713,
+    InstanceID = 542,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {58, 60, 68},
+    items = {
         { -- HCFurnaceMaker
             name = AL["The Maker"],
             npcID = {17381,18621},
@@ -335,12 +335,12 @@ data["TheBloodFurnace"] = {
 
 data["TheShatteredHalls"] = {
     nameFormat = NAME_HELLFIRE_CITADEL,
-	MapID = 3714,
-	InstanceID = 540,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {65, 69, 70},
-	items = {
+    MapID = 3714,
+    InstanceID = 540,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {65, 69, 70},
+    items = {
         { -- HCHallsNethekurse
         name = AL["Grand Warlock Nethekurse"],
             npcID = {16807,20568},
@@ -482,12 +482,12 @@ data["TheShatteredHalls"] = {
 
 data["Mana-Tombs"] = {
     nameFormat = NAME_AUCHINDOUN,
-	MapID = 3792,
-	InstanceID = 557,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {61, 63, 70},
-	items = {
+    MapID = 3792,
+    InstanceID = 557,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {61, 63, 70},
+    items = {
         { -- AuchManaPandemonius
             name = AL["Pandemonius"],
             npcID = {18341, 20267},
@@ -617,12 +617,12 @@ data["Mana-Tombs"] = {
 
 data["AuchenaiCrypts"] = {
     nameFormat = NAME_AUCHINDOUN,
-	MapID = 3790,
-	InstanceID = 558,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {62, 64, 70},
-	items = {
+    MapID = 3790,
+    InstanceID = 558,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {62, 64, 70},
+    items = {
         { -- AuchCryptsShirrak
             name = AL["Shirrak the Dead Watcher"],
             npcID = {18371, 20318},
@@ -703,17 +703,17 @@ data["AuchenaiCrypts"] = {
                 { 3, 22544 }, -- Formula: Enchant Boots - Dexterity
             }
         },
-	},
+    },
 }
 
 data["SethekkHalls"] = {
     nameFormat = NAME_AUCHINDOUN,
-	MapID = 3791,
-	InstanceID = 556,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {63, 66, 70},
-	items = {
+    MapID = 3791,
+    InstanceID = 556,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {63, 66, 70},
+    items = {
         { -- AuchSethekkDarkweaver
             name = AL["Darkweaver Syth"],
             npcID = {18472, 20690},
@@ -831,12 +831,12 @@ data["SethekkHalls"] = {
 
 data["ShadowLabyrinth"] = {
     nameFormat = NAME_AUCHINDOUN,
-	MapID = 3789,
-	InstanceID = 555,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {65, 69, 70},
-	items = {
+    MapID = 3789,
+    InstanceID = 555,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {65, 69, 70},
+    items = {
         { -- AuchShadowHellmaw
             name = AL["Ambassador Hellmaw"],
             npcID = {18731, 20636},
@@ -989,12 +989,12 @@ data["ShadowLabyrinth"] = {
 
 data["TheSlavePens"] = {
     nameFormat = NAME_COILFANG_RESERVOIR,
-	MapID = 3717,
-	InstanceID = 547,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {59, 61, 69},
-	items = {
+    MapID = 3717,
+    InstanceID = 547,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {59, 61, 69},
+    items = {
         { -- CFRSlaveMennu
             name = AL["Mennu the Betrayer"],
             npcID = {17941, 19893},
@@ -1108,12 +1108,12 @@ data["TheSlavePens"] = {
 
 data["TheUnderbog"] = {
     nameFormat = NAME_COILFANG_RESERVOIR,
-	MapID = 3716,
-	InstanceID = 546,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {60, 62, 70},
-	items = {
+    MapID = 3716,
+    InstanceID = 546,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {60, 62, 70},
+    items = {
         { -- CFRUnderHungarfen
             name = AL["Hungarfen"],
             npcID = {17770,20169},
@@ -1232,12 +1232,12 @@ data["TheUnderbog"] = {
 
 data["TheSteamvault"] = {
     nameFormat = NAME_COILFANG_RESERVOIR,
-	MapID = 3715,
-	InstanceID = 545,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {65, 69, 70},
-	items = {
+    MapID = 3715,
+    InstanceID = 545,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {65, 69, 70},
+    items = {
         { -- CFRSteamThespia
             name = AL["Hydromancer Thespia"],
             npcID = {17797, 20629},
@@ -1353,12 +1353,12 @@ data["TheSteamvault"] = {
 
 data["OldHillsbradFoothills"] = {
     nameFormat = NAME_CAVERNS_OF_TIME,
-	MapID = 2367,
-	InstanceID = 560,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {63, 66, 70},
-	items = {
+    MapID = 2367,
+    InstanceID = 560,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {63, 66, 70},
+    items = {
         { -- CoTHillsbradDrake
             name = AL["Lieutenant Drake"],
             npcID = {17848,20535},
@@ -1499,12 +1499,12 @@ data["OldHillsbradFoothills"] = {
 
 data["TheBlackMorass"] = {
     nameFormat = NAME_CAVERNS_OF_TIME,
-	MapID = 2366,
-	InstanceID = 269,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {65, 68, 70},
-	items = {
+    MapID = 2366,
+    InstanceID = 269,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {65, 68, 70},
+    items = {
         { -- CoTMorassDeja
             name = AL["Chrono Lord Deja"],
             npcID = {17879,20738},
@@ -1614,12 +1614,12 @@ data["TheBlackMorass"] = {
 
 data["TheArcatraz"] = {
     nameFormat = NAME_TEMPEST_KEEP,
-	MapID = 3848,
-	InstanceID = 552,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {65, 69, 70},
-	items = {
+    MapID = 3848,
+    InstanceID = 552,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {65, 69, 70},
+    items = {
         { -- TKArcUnbound
             name = AL["Zereketh the Unbound"],
             npcID = {20870,21626},
@@ -1762,12 +1762,12 @@ data["TheArcatraz"] = {
 
 data["TheBotanica"] = {
     nameFormat = NAME_TEMPEST_KEEP,
-	MapID = 3847,
-	InstanceID = 553,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {65, 69, 70},
-	items = {
+    MapID = 3847,
+    InstanceID = 553,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {65, 69, 70},
+    items = {
         { -- TKBotSarannis
             name = AL["Commander Sarannis"],
             npcID = {17976,21551},
@@ -1934,12 +1934,12 @@ data["TheBotanica"] = {
 
 data["TheMechanar"] = {
     nameFormat = NAME_TEMPEST_KEEP,
-	MapID = 3849,
-	InstanceID = 554,
-	ContentType = DUNGEON_CONTENT,
-	--LoadDifficulty = NORMAL_DIFF,
-	LevelRange = {65, 68, 70},
-	items = {
+    MapID = 3849,
+    InstanceID = 554,
+    ContentType = DUNGEON_CONTENT,
+    --LoadDifficulty = NORMAL_DIFF,
+    LevelRange = {65, 68, 70},
+    items = {
         { -- TKMechCapacitus
             name = AL["Mechano-Lord Capacitus"],
             npcID = {19219,21533},
@@ -2094,11 +2094,11 @@ data["TheMechanar"] = {
 }
 
 data["MagistersTerrace"] = {
-	MapID = 4131,
-	InstanceID = 585,
-	ContentType = DUNGEON_CONTENT,
-	LevelRange = {65, 69, 70},
-	items = {
+    MapID = 4131,
+    InstanceID = 585,
+    ContentType = DUNGEON_CONTENT,
+    LevelRange = {65, 69, 70},
+    items = {
         { -- SMTFireheart
             name = AL["Selin Fireheart"],
             npcID = {24723, 25562},
@@ -2249,10 +2249,10 @@ data["MagistersTerrace"] = {
 
 local KARA_MAPDATA_END = {"CL_KarazhanEnd", "CL_KarazhanEnt"}
 data["Karazhan"] = {
-	MapID = 3457,
-	InstanceID = 532,
-	ContentType = RAID10_CONTENT,
-	items = {
+    MapID = 3457,
+    InstanceID = 532,
+    ContentType = RAID10_CONTENT,
+    items = {
         { -- KaraAttumen
             name = AL["Attumen the Huntsman"],
             npcID = 16152,
@@ -2399,6 +2399,7 @@ data["Karazhan"] = {
                 { 19, 28593 }, -- Eternium Greathelm
                 { 20, 28590 }, -- Ribbon of Sacrifice
                 { 21, 28592 }, -- Libram of Souls Redeemed
+                { 23, 97548 }, -- Spiky Collar
             }
         },
         { -- KaraOperaEvent
@@ -2437,6 +2438,7 @@ data["Karazhan"] = {
                 { 16, 29757 }, -- Gloves of the Fallen Champion
                 { 17, 29758 }, -- Gloves of the Fallen Defender
                 { 18, 29756 }, -- Gloves of the Fallen Hero
+                { 20, 97549 }, -- Instant Arcane Sanctum Security Kit
             }
         },
         { -- KaraIllhoof
@@ -2459,6 +2461,7 @@ data["Karazhan"] = {
                 { 19, 28658 }, -- Terestian's Stranglestaff
                 { 20, 28659 }, -- Xavian Stiletto
                 { 22, 22561 }, -- Formula: Enchant Weapon - Soulfrost
+                { 23, 97551 }, -- Satyr Charm
             }
         },
         { -- KaraAran
@@ -2548,6 +2551,7 @@ data["Karazhan"] = {
                 { 16, 29760 }, -- Helm of the Fallen Champion
                 { 17, 29761 }, -- Helm of the Fallen Defender
                 { 18, 29759 }, -- Helm of the Fallen Hero
+                { 20, 97550 }, -- Netherspace Portal-Stone
             }
         },
         { -- KaraNightbane
@@ -2598,26 +2602,26 @@ data["Karazhan"] = {
             }
         },
         AtlasLoot:GameVersion_GE(AtlasLoot.WRATH_VERSION_NUM, { -- KaraPrinceT
-			name = AL["Prince Tenris Mirkblood"],
-			npcID = 28194,
-			Level = 999,
-			DisplayIDs = {{25541}},
-			specialType = "scourgeInvasion",
-			ExtraList = true,
-			[NORMAL_DIFF] = {
-				{ 1,  38658 }, -- Vampiric Batling
-				{ 2,  39769 }, -- Arcanite Ripper
-			},
-		}),
+            name = AL["Prince Tenris Mirkblood"],
+            npcID = 28194,
+            Level = 999,
+            DisplayIDs = {{25541}},
+            specialType = "scourgeInvasion",
+            ExtraList = true,
+            [NORMAL_DIFF] = {
+                { 1,  38658 }, -- Vampiric Batling
+                { 2,  39769 }, -- Arcanite Ripper
+            },
+        }),
         T4_SET
     }
 }
 
 data["ZulAmanClassic"] = {
-	MapID = 3805,
-	InstanceID = 568,
-	ContentType = REMOVED_CONTENT,
-	items = {
+    MapID = 3805,
+    InstanceID = 568,
+    ContentType = REMOVED_CONTENT,
+    items = {
         { -- ZAAkilZon
             name = AL["Akil'zon"],
             npcID = 23574,
@@ -2779,9 +2783,9 @@ data["ZulAmanClassic"] = {
 }
 
 data["WorldBossesBC"] = {
-	name = AL["World Bosses"],
-	ContentType = RAID25_CONTENT,
-	items = {
+    name = AL["World Bosses"],
+    ContentType = RAID25_CONTENT,
+    items = {
         { -- DDoomwalker
             name = AL["Doomwalker"],
             npcID = 17711,
@@ -2818,14 +2822,14 @@ data["WorldBossesBC"] = {
                 { 10, 30732 }, -- Exodar Life-Staff
             }
         }
-	}
+    }
 }
 
 data["MagtheridonsLair"] = {
-	MapID = 3836,
-	InstanceID = 544,
-	ContentType = RAID25_CONTENT,
-	items = {
+    MapID = 3836,
+    InstanceID = 544,
+    ContentType = RAID25_CONTENT,
+    items = {
         { -- HCMagtheridon
             name = AL["Magtheridon"],
             npcID = 17257,
@@ -2857,10 +2861,10 @@ data["MagtheridonsLair"] = {
 }
 
 data["GruulsLair"] = {
-	MapID = 3923,
-	InstanceID = 565,
-	ContentType = RAID25_CONTENT,
-	items = {
+    MapID = 3923,
+    InstanceID = 565,
+    ContentType = RAID25_CONTENT,
+    items = {
         { -- GruulsLairHighKingMaulgar
             name = AL["High King Maulgar"],
             npcID = 18831,
@@ -2908,10 +2912,10 @@ data["GruulsLair"] = {
 }
 
 data["SerpentshrineCavern"] = {
-	MapID = 3607,
-	InstanceID = 548,
-	ContentType = RAID25_CONTENT,
-	items = {
+    MapID = 3607,
+    InstanceID = 548,
+    ContentType = RAID25_CONTENT,
+    items = {
         { -- CFRSerpentHydross
             name = AL["Hydross the Unstable"],
             npcID = 21216,
@@ -2932,6 +2936,7 @@ data["SerpentshrineCavern"] = {
                 { 19, 30629 }, -- Scarab of Displacement
                 { 20, 30049 }, -- Fathomstone
                 { 21, 30051 }, -- Idol of the Crescent Goddess
+                { 23, 97553 }, -- Tainted Core
             }
         },
         { -- CFRSerpentLurker
@@ -3008,6 +3013,7 @@ data["SerpentshrineCavern"] = {
                 { 19, 30720 }, -- Serpent-Coil Braid
                 { 20, 30082 }, -- Talon of Azshara
                 { 21, 30080 }, -- Luminescent Rod of the Naaru
+                { 23, 97552 }, -- Shell of Tide-Calling
             }
         },
         { -- CFRSerpentVashj
@@ -3032,6 +3038,7 @@ data["SerpentshrineCavern"] = {
                 { 17, 30243 }, -- Helm of the Vanquished Defender
                 { 18, 30244 }, -- Helm of the Vanquished Hero
                 { 20, 29906 }, -- Vashj's Vial Remnant
+                { 22, 97554 }, -- Dripping Strider Egg
             }
         },
         { -- CFRSerpentTrash
@@ -3069,10 +3076,10 @@ data["SerpentshrineCavern"] = {
 }
 
 data["TempestKeep"] = {
-	MapID = 3845,
-	InstanceID = 550,
-	ContentType = RAID25_CONTENT,
-	items = {
+    MapID = 3845,
+    InstanceID = 550,
+    ContentType = RAID25_CONTENT,
+    items = {
         { -- TKEyeAlar
             name = AL["Al'ar"],
             npcID = 19514,
@@ -3092,6 +3099,7 @@ data["TempestKeep"] = {
                 { 17, 29948 }, -- Claw of the Phoenix
                 { 18, 29924 }, -- Netherbane
                 { 19, 29949 }, -- Arcanite Steam-Pistol
+                { 21, 97557 }, -- Brilliant Phoenix Hawk Feather
             }
         },
         { -- TKEyeVoidReaver
@@ -3110,6 +3118,7 @@ data["TempestKeep"] = {
                 { 16, 30248 }, -- Pauldrons of the Vanquished Champion
                 { 17, 30249 }, -- Pauldrons of the Vanquished Defender
                 { 18, 30250 }, -- Pauldrons of the Vanquished Hero
+                { 20, 97555 }, -- Tiny Fel Engine Key
             }
         },
         { -- TKEyeSolarian
@@ -3131,6 +3140,7 @@ data["TempestKeep"] = {
                 { 18, 29962 }, -- Heartrazor
                 { 19, 29981 }, -- Ethereum Life-Staff
                 { 20, 29982 }, -- Wand of the Forgotten Star
+                { 22, 97556 }, -- Crystal of the Void
             }
         },
         { -- TKEyeKaelthas
@@ -3208,10 +3218,10 @@ data["TempestKeep"] = {
 }
 
 data["HyjalSummit"] = {
-	MapID = 3606,
-	InstanceID = 534,
-	ContentType = RAID25_CONTENT,
-	items = {
+    MapID = 3606,
+    InstanceID = 534,
+    ContentType = RAID25_CONTENT,
+    items = {
         { -- MountHyjalWinterchill
             name = AL["Rage Winterchill"],
             npcID = 17767,
@@ -3343,10 +3353,10 @@ data["HyjalSummit"] = {
 }
 
 data["BlackTemple"] = {
-	MapID = 3959,
-	InstanceID = 564,
-	ContentType = RAID25_CONTENT,
-	items = {
+    MapID = 3959,
+    InstanceID = 564,
+    ContentType = RAID25_CONTENT,
+    items = {
         { -- BTNajentus
             name = AL["High Warlord Naj'entus"],
             npcID = 22887,
@@ -3589,10 +3599,10 @@ data["BlackTemple"] = {
 }
 
 data["SunwellPlateau"] = {
-	MapID = 4075,
-	InstanceID = 580,
-	ContentType = RAID25_CONTENT,
-	items = {
+    MapID = 4075,
+    InstanceID = 580,
+    ContentType = RAID25_CONTENT,
+    items = {
         { -- SPKalecgos
             name = AL["Kalecgos"],
             npcID = {24850,24892},
