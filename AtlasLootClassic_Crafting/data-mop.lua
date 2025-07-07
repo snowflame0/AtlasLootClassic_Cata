@@ -401,7 +401,7 @@ data["EnchantingMoP"] = {
             }
         },
         {
-            name = ALIL["Off-Hand/Shield"].." - "..AL["Enhancements"],
+            name = ALIL["Off Hand"] .. "/" .. ALIL["Shield"] .. " - " .. AL["Enhancements"],
             [NORMAL_DIFF] = {
                 { 1, 104445 }, -- Enchant Off-Hand - Major Intellect
                 { 2, 130758 }, -- Enchant Shield - Greater Parry

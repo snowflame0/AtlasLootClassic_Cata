@@ -1827,7 +1827,6 @@ if AtlasLoot:GameVersion_GE(AtlasLoot.MOP_VERSION_NUM) then
 
         -- Crafted PvP Sets
         [1121] = {{82421,82422,82423,82426,82424,82428,82425,82427},1,3,450,-1,{{2,128411},{4,128410}}}, -- Contender's Defense Silk
-        
     }
 end
 

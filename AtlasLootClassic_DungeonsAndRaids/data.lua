@@ -57,36 +57,36 @@ local WHIT = "|cffffffff%s|r"
 local NAME_COLOR, NAME_COLOR_BOSS = "|cffC0C0C0", "|cffC0C0C0"
 local NAME_BRD_RING_OF_LAW = NAME_COLOR_BOSS .. AL["Ring of Law"] .. ":|r %s"
 
-local CLASSIC_INSTANCE_AC_TABLE = {	--[Classic Dungeonmaster]
-	name = select(2, GetAchievementInfo(1283)),
-	TableType = AC_ITTYPE,
-	ExtraList = true,
-	CoinTexture = "Achievement",
-	[NORMAL_DIFF] = {
-		{ 1, 1283 },
-		{ 2, 628 },			{ 17, 629 },
-		{ 3, 630 },			{ 18, 631 },
-		{ 4, 632 },			{ 19, 633 },
-		{ 5, 634 },			{ 20, 635 },
-		{ 6, 636 },			{ 21, 637 },
-		{ 7, 638 },			{ 22, 639 },
-		{ 8, 640 },			{ 23, 641 },
-		{ 9, 642 },			{ 24, 643 },
-		{ 10, 644 },			{ 25, 645 },
-		{ 11, 646 }
-	},
+local CLASSIC_INSTANCE_AC_TABLE = { --[Classic Dungeonmaster]
+    name = select(2, GetAchievementInfo(1283)),
+    TableType = AC_ITTYPE,
+    ExtraList = true,
+    CoinTexture = "Achievement",
+    [NORMAL_DIFF] = {
+        { 1, 1283 },
+        { 2, 628 },            { 17, 629 },
+        { 3, 630 },            { 18, 631 },
+        { 4, 632 },            { 19, 633 },
+        { 5, 634 },            { 20, 635 },
+        { 6, 636 },            { 21, 637 },
+        { 7, 638 },            { 22, 639 },
+        { 8, 640 },            { 23, 641 },
+        { 9, 642 },            { 24, 643 },
+        { 10, 644 },           { 25, 645 },
+        { 11, 646 }
+    },
 }
 
-local CLASSIC_RAID_AC_TABLE = {	--[Classic Raider]
-	name = select(2, GetAchievementInfo(1285)),
-	TableType = AC_ITTYPE,
-	ExtraList = true,
-	CoinTexture = "Achievement",
-	[NORMAL_DIFF] = {
-		{ 1, 1285 },
-		{ 2, 685 },			{ 17, 686 },
-		{ 3, 687 },			{ 18, 689 },
-	},
+local CLASSIC_RAID_AC_TABLE = { --[Classic Raider]
+    name = select(2, GetAchievementInfo(1285)),
+    TableType = AC_ITTYPE,
+    ExtraList = true,
+    CoinTexture = "Achievement",
+    [NORMAL_DIFF] = {
+        { 1, 1285 },
+        { 2, 685 },            { 17, 686 },
+        { 3, 687 },            { 18, 689 },
+    },
 }
 
 local T1_SET = {
@@ -203,7 +203,7 @@ local AQ_ENCHANTS = { -- AQEnchants
     },
 }
 
-local AQ_OPENING = {    -- Keys
+local AQ_OPENING = { -- Keys
     name = AL["AQ opening"],
     TableType = NORMAL_ITTYPE,
     ExtraList = true,
@@ -244,7 +244,7 @@ local DM_BOOKS = { -- DMBooks
         { 9,  18363 }, -- Frost Shock and You
         { 10, 18359 }, -- The Light and How to Swing It
         { 11, 18357 }, -- Codex of Defense
-        --{ 16, 18348 }, -- Quel'Serrar
+     -- { 16, 18348 }, -- Quel'Serrar
         { 18, 18333 }, -- Libram of Focus
         { 19, 18334 }, -- Libram of Protection
         { 20, 18332 }, -- Libram of Rapidity
@@ -509,7 +509,7 @@ data["WailingCaverns"] = {
 data["BlackfathomDeeps"] = {
     EncounterJournalID = 227,
     MapID = 719,
-    -- InstanceID = 48,
+ -- InstanceID = 48,
     ContentType = DUNGEON_CONTENT,
     LoadDifficulty = NORMAL_DIFF,
     LevelRange = GetForVersion({15, 20, 27}),
@@ -709,15 +709,15 @@ data["Gnomeregan"] = {
                 { 3,  9458 }, -- Thermaplugg's Central Core
                 { 4,  9459 }, -- Thermaplugg's Left Arm
                 { 16, 4415 }, -- Schematic: Craftsman's Monocle
-                --{ 17, 4393 }, -- Craftsman's Monocle
+             -- { 17, 4393 }, -- Craftsman's Monocle
                 { 17, 4413 }, -- Schematic: Discombobulator Ray
-                --{ 20, 4388 }, -- Discombobulator Ray
+             -- { 20, 4388 }, -- Discombobulator Ray
                 { 18, 4411 }, -- Schematic: Flame Deflector
-                --{ 23, 4376 }, -- Flame Deflector
+             -- { 23, 4376 }, -- Flame Deflector
                 { 19, 7742 }, -- Schematic: Gnomish Cloaking Device
-                --{ 26, 4397 }, -- Gnomish Cloaking Device
+             -- { 26, 4397 }, -- Gnomish Cloaking Device
                 { 20, 11828 }, -- Schematic: Pet Bombling
-                --{ 29, 11825 }, -- Pet Bombling
+             -- { 29, 11825 }, -- Pet Bombling
             },
         },
         { -- GnTrash
@@ -735,7 +735,7 @@ data["Gnomeregan"] = {
                 { 9,  9490 }, -- Gizmotron Megachopper
                 { 11, 9489 }, -- Gyromatic Icemaker
                 { 12, 11827 }, -- Schematic: Lil' Smoky
-                --{ 15, 11826 }, -- Lil' Smoky
+             -- { 15, 11826 }, -- Lil' Smoky
                 { 16, 9327 }, -- Security DELTA Data Access Card
                 { 18, 7191 }, -- Fused Wiring
                 { 19, 9308 }, -- Grime-Encrusted Object
@@ -875,8 +875,8 @@ data["ScarletHalls"] = {
                 { 3,  88271 }, -- Harlan's Shoulders
                 { 4,  88272 }, -- The Gleaming Ravager
                 { 5,  88273 }, -- Armsmaster's Sealed Locket
-                { 7,  71638 }, -- Ornate Weapon
-                { 8,  23192 }, -- Tabard of the Scarlet Crusade
+                { 7, 23192, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Tabard of the Scarlet Crusade
+                { 8,  71638 }, -- Ornate Weapon
             },
         },
         { -- SHKoegler
@@ -893,7 +893,8 @@ data["ScarletHalls"] = {
                 { 8,  88281 }, -- Temperature-Sensing Necklace
                 { 9,  88282 }, -- Vellum-Ripper Gloves
                 { 10,  88283 }, -- Bradbury's Entropic Legguards
-                { 12,  87267 }, -- Codex of the Crusade
+                { 12, 87268, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Codex of the Crusade
+                { 14, 82470 }, -- Ancient Tome of Portal: Dalaran
             },
         },
     },
@@ -1164,7 +1165,7 @@ data["Uldaman"] = {
                 { 9,  9396 }, -- Legguards of the Vault
                 { 10, 9393 }, -- Beacon of Hope
                 { 12, 7666 }, -- Shattered Necklace
-                --{ 13, 7673 }, -- Talvash's Enhancing Necklace
+             -- { 13, 7673 }, -- Talvash's Enhancing Necklace
                 { 16, 9381 }, -- Earthen Rod
                 { 17, 9426 }, -- Monolithic Bow
                 { 18, 9422 }, -- Shadowforge Bushmaster
@@ -1395,7 +1396,7 @@ data["DireMaul"] = {
                 { 5,  18350 }, -- Amplifying Cloak
                 { 6,  18351 }, -- Magically Sealed Bracers
                 { 8,  22309 }, -- Pattern: Big Bag of Enchantment
-                --{ 9,  22249 }, -- Big Bag of Enchantment
+             -- { 9,  22249 }, -- Big Bag of Enchantment
             },
         },
         { -- DMWTsuzee
@@ -1463,7 +1464,7 @@ data["DireMaul"] = {
             IgnoreAsSource = true,
             [NORMAL_DIFF] = {
                 { 1,  18487, [PRICE_EXTRA_ITTYPE] = "money:40000" }, -- Pattern: Mooncloth Robe
-                --{ 2,  18486 }, -- Mooncloth Robe
+             -- { 2,  18486 }, -- Mooncloth Robe
             },
         },
         { -- DMWHelnurath
@@ -1764,11 +1765,11 @@ data["Stratholme"] = {
     EncounterJournalID = 236,
     MapID = 2017,
     SubAreaIDs = {
-        -- Living
+     -- Living
         32319, 32320, 32367, 32331, 32357, 32281, 32285, 32277,
-        -- Undead
+     -- Undead
         32342, 32322, 32303, 32301, 32352,
-        -- Ziggurats
+     -- Ziggurats
         32344, 32345, 32349,
     },
     ContentType = DUNGEON_CONTENT,
@@ -1860,7 +1861,7 @@ data["Stratholme"] = {
             DisplayIDs = {{10637}},
             [NORMAL_DIFF] = {
                 { 1,  18781 }, -- Bottom Half of Advanced Armorsmithing: Volume II
-                --{ 3,  12824 }, -- Plans: Enchanted Battlehammer
+             -- { 3,  12824 }, -- Plans: Enchanted Battlehammer
             },
         },
         { -- STRATCannonMasterWilley
@@ -1975,10 +1976,10 @@ data["Stratholme"] = {
             DisplayIDs = {{775}},
             [NORMAL_DIFF] = {
                 { 1,  18783 }, -- Bottom Half of Advanced Armorsmithing: Volume III
-                --{ 2,  12725 }, -- Plans: Enchanted Thorium Helm
-                --{ 3,  12620 }, -- Enchanted Thorium Helm
-                --{ 3,  12825 }, -- Plans: Blazing Rapier
-                --{ 6,  12777 }, -- Blazing Rapier
+             -- { 2,  12725 }, -- Plans: Enchanted Thorium Helm
+             -- { 3,  12620 }, -- Enchanted Thorium Helm
+             -- { 3,  12825 }, -- Plans: Blazing Rapier
+             -- { 6,  12777 }, -- Blazing Rapier
             },
         },
         { -- STRATNerubenkan
@@ -2301,7 +2302,7 @@ data["BlackrockDepths"] = {
                 { 4,  22397 }, -- Idol of Ferocity
                 { 5,  11630 }, -- Rockshard Pellets
                 { 7,  11813 }, -- Formula: Smoking Heart of the Mountain
-                --{ 8,  11811 }, -- Smoking Heart of the Mountain
+             -- { 8,  11811 }, -- Smoking Heart of the Mountain
             },
         },
         { -- BRDHighInterrogatorGerstahn
@@ -2327,7 +2328,7 @@ data["BlackrockDepths"] = {
                 { 4,  11629 }, -- Houndmaster's Rifle
             },
         },
-        -- ## RING START
+     -- ## RING START
         { -- BRDGorosh
             name = AL["Gorosh the Dervish"],
             nameFormat = NAME_BRD_RING_OF_LAW,
@@ -2352,7 +2353,7 @@ data["BlackrockDepths"] = {
                 { 3,  22270 }, -- Entrenching Boots
                 { 4,  11702 }, -- Grizzle's Skinner
                 { 6,  11610 }, -- Plans: Dark Iron Pulverizer
-                --{ 2,  11608 }, -- Dark Iron Pulverizer
+             -- { 2,  11608 }, -- Dark Iron Pulverizer
             },
         },
         { -- BRDEviscerator
@@ -2403,7 +2404,7 @@ data["BlackrockDepths"] = {
                 { 4,  11729 }, -- Savage Gladiator Helm
             },
         },
-        -- ## RING END
+     -- ## RING END
         { -- BRDPyromancerLoregrain
             EncounterJournalID = 373,
             SubAreaID = 26745,
@@ -2920,7 +2921,7 @@ data["BlackrockSpire"] = {
                 { 2,  12634 }, -- Chiselbrand Girdle
                 { 3,  12621 }, -- Demonfork
                 { 5,  12838 }, -- Plans: Arcanite Reaper
-                --{ 6,  12784 }, -- Arcanite Reaper
+             -- { 6,  12784 }, -- Arcanite Reaper
             },
         },
         { -- LBRSSmolderweb
@@ -2966,7 +2967,7 @@ data["BlackrockSpire"] = {
                 { 3,  13253 }, -- Hands of Power
                 { 4,  13252 }, -- Cloudrunner Girdle
                 { 6,  12835 }, -- Plans: Annihilator
-                --{ 5,  12798 }, -- Annihilator
+             -- { 5,  12798 }, -- Annihilator
             },
         },
         { -- LBRSHalycon
@@ -3249,7 +3250,7 @@ data["WorldBosses"] = {
                 { 10, 18542 }, -- Typhoon
                 { 16, 18704 }, -- Mature Blue Dragon Sinew
                 { 18, 11938 }, -- Sack of Gems
-                -- Hidden items
+             -- Hidden items
                 { 0, 17962 }, -- Blue Sack of Gems
                 { 0, 17963 }, -- Green Sack of Gems
                 { 0, 17964 }, -- Gray Sack of Gems
@@ -3274,7 +3275,7 @@ data["WorldBosses"] = {
                 { 10, 17113 }, -- Amberseal Keeper
                 { 16, 18665 }, -- The Eye of Shadow
                 { 18, 11938 }, -- Sack of Gems
-                -- Hidden items
+             -- Hidden items
                 { 0, 17962 }, -- Blue Sack of Gems
                 { 0, 17963 }, -- Green Sack of Gems
                 { 0, 17964 }, -- Gray Sack of Gems
@@ -3306,7 +3307,7 @@ data["WorldBosses"] = {
                 { 25, 20581 }, -- Staff of Rampant Growth
                 { 29, 20381 }, -- Dreamscale
                 { 30, 11938 }, -- Sack of Gems
-                -- Hidden items
+             -- Hidden items
                 { 0, 17962 }, -- Blue Sack of Gems
                 { 0, 17963 }, -- Green Sack of Gems
                 { 0, 17964 }, -- Gray Sack of Gems
@@ -3336,7 +3337,7 @@ data["WorldBosses"] = {
                 { 24, 20580 }, -- Hammer of Bestial Fury
                 { 25, 20581 }, -- Staff of Rampant Growth
                 { 30, 11938 }, -- Sack of Gems
-                -- Hidden items
+             -- Hidden items
                 { 0, 17962 }, -- Blue Sack of Gems
                 { 0, 17963 }, -- Green Sack of Gems
                 { 0, 17964 }, -- Gray Sack of Gems
@@ -3366,7 +3367,7 @@ data["WorldBosses"] = {
                 { 24, 20580 }, -- Hammer of Bestial Fury
                 { 25, 20581 }, -- Staff of Rampant Growth
                 { 30, 11938 }, -- Sack of Gems
-                -- Hidden items
+             -- Hidden items
                 { 0, 17962 }, -- Blue Sack of Gems
                 { 0, 17963 }, -- Green Sack of Gems
                 { 0, 17964 }, -- Gray Sack of Gems
@@ -3397,7 +3398,7 @@ data["WorldBosses"] = {
                 { 24, 20580 }, -- Hammer of Bestial Fury
                 { 25, 20581 }, -- Staff of Rampant Growth
                 { 30, 11938 }, -- Sack of Gems
-                -- Hidden items
+             -- Hidden items
                 { 0, 17962 }, -- Blue Sack of Gems
                 { 0, 17963 }, -- Green Sack of Gems
                 { 0, 17964 }, -- Gray Sack of Gems
@@ -3414,7 +3415,7 @@ data["MoltenCore"] = {
     ContentType = RAID40_CONTENT,
     LoadDifficulty = RAID40_DIFF,
     items = {
-        {    --MCLucifron
+        { -- MCLucifron
             name = AL["Lucifron"],
             npcID = 12118,
             DisplayIDs = {{13031},{12030}},
@@ -3439,7 +3440,7 @@ data["MoltenCore"] = {
                 { 30, 16665 }, -- Tome of Tranquilizing Shot
             },
         },
-        {    --MCMagmadar
+        { -- MCMagmadar
             name = AL["Magmadar"],
             npcID = 11982,
             DisplayIDs = {{10193}},
@@ -3471,7 +3472,7 @@ data["MoltenCore"] = {
                 { 27, 93034 }, -- Blazing Rune
             },
         },
-        {    --MCGehennas
+        { -- MCGehennas
             name = AL["Gehennas"],
             npcID = 12259,
             DisplayIDs = {{13030},{12002}},
@@ -3494,7 +3495,7 @@ data["MoltenCore"] = {
                 { 25, 18878 }, -- Sorcerous Dagger
             },
         },
-        {    --MCGarr
+        { -- MCGarr
             name = AL["Garr"],
             npcID = 12057,
             DisplayIDs = {{12110}, {5781}},
@@ -3526,7 +3527,7 @@ data["MoltenCore"] = {
                 { 30, 18822 }, -- Obsidian Edged Blade
             },
         },
-        {    --MCShazzrah
+        { -- MCShazzrah
             name = AL["Shazzrah"],
             npcID = 12264,
             DisplayIDs = {{13032}},
@@ -3549,7 +3550,7 @@ data["MoltenCore"] = {
                 { 25, 18878 }, -- Sorcerous Dagger
             },
         },
-        {    --MCGeddon
+        { -- MCGeddon
             name = AL["Baron Geddon"],
             npcID = 12056,
             DisplayIDs = {{12129}},
@@ -3574,7 +3575,7 @@ data["MoltenCore"] = {
                 { 27, 18822 }, -- Obsidian Edged Blade
             },
         },
-        {    --MCGolemagg
+        { -- MCGolemagg
             name = AL["Golemagg the Incinerator"],
             npcID = 11988,
             DisplayIDs = {{11986}},
@@ -3761,7 +3762,7 @@ data["Onyxia"] = {
                 { 24, 17075 }, -- Vis'kag the Bloodletter
                 { 26, 17966 }, -- Onyxia Hide Backpack
                 { 27, 11938 }, -- Sack of Gems
-                -- Hidden items
+             -- Hidden items
                 { 0, 17962 }, -- Blue Sack of Gems
                 { 0, 17963 }, -- Green Sack of Gems
                 { 0, 17964 }, -- Gray Sack of Gems
@@ -4009,7 +4010,7 @@ data["Zul'GurubClassic"] = {
             [NORMAL_DIFF] = {
                 { 1,  19857 }, -- Cloak of Consumption
                 { 2,  20257, [ATLASLOOT_IT_ALLIANCE] = 20264 }, -- Seafury Gauntlets
-                --{ 3,  20264, [ATLASLOOT_IT_HORDE] = 20257 }, -- Peacekeeper Gauntlets
+             -- { 3,  20264, [ATLASLOOT_IT_HORDE] = 20257 }, -- Peacekeeper Gauntlets
                 { 3,  19855 }, -- Bloodsoaked Legplates
                 { 4,  19876 }, -- Soul Corrupter's Necklace
                 { 5,  19856 }, -- The Eye of Hakkar
@@ -4340,7 +4341,7 @@ data["BlackwingLair"] = {
                 { 27, 19382 }, -- Pure Elementium Band
                 { 28, 19379 }, -- Neltharion's Tear
                 { 30, 11938 }, -- Sack of Gems
-                -- Hidden items
+             -- Hidden items
                 { 0, 17962 }, -- Blue Sack of Gems
                 { 0, 17963 }, -- Green Sack of Gems
                 { 0, 17964 }, -- Gray Sack of Gems
@@ -4436,7 +4437,7 @@ data["TheRuinsofAhnQiraj"] = { -- AQ20
                 { 21, 20888 }, -- Qiraji Ceremonial Ring
                 { 22, 20884 }, -- Qiraji Magisterial Ring
                 { 24, 22220 }, -- Plans: Black Grasp of the Destroyer
-                --{ 24, 22194 }, -- Black Grasp of the Destroyer
+             -- { 24, 22194 }, -- Black Grasp of the Destroyer
             },
         },
         { -- AQ20Buru
@@ -4604,7 +4605,7 @@ data["TheTempleofAhnQiraj"] = { -- AQ40
                 { 16, 21237 }, -- Imperial Qiraji Regalia
                 { 17, 21232 }, -- Imperial Qiraji Armaments
                 { 19, 22222 }, -- Plans: Thick Obsidian Breastplate
-                --{ 20, 22196 }, -- Thick Obsidian Breastplate
+             -- { 20, 22196 }, -- Thick Obsidian Breastplate
                 { 21, 93041 }, -- Jewel of Maddening Whispers
             },
         },
@@ -4819,7 +4820,7 @@ data["Naxxramas"] = {
     ContentType = REMOVED_CONTENT,
     LoadDifficulty = RAID40_DIFF,
     items = {
-        -- The Arachnid Quarter
+     -- The Arachnid Quarter
         { -- NAXAnubRekhan
             name = AL["Anub'Rekhan"],
             npcID = 15956,
@@ -4874,7 +4875,7 @@ data["Naxxramas"] = {
                 { 12, 22804 }, -- Maexxna's Fang
             },
         },
-        -- The Plague Quarter
+     -- The Plague Quarter
         { -- NAXNoththePlaguebringer
             name = AL["Noth the Plaguebringer"],
             npcID = 15954,
@@ -4931,7 +4932,7 @@ data["Naxxramas"] = {
                 { 12, 22800 }, -- Brimstone Staff
             },
         },
-        -- The Military Quarter
+     -- The Military Quarter
         { -- NAXInstructorRazuvious
             name = AL["Instructor Razuvious"],
             npcID = 16061,
@@ -4988,7 +4989,7 @@ data["Naxxramas"] = {
                 { 13, 22691 }, -- Corrupted Ashbringer
             },
         },
-        -- The Construct Quarter
+     -- The Construct Quarter
         { -- NAXPatchwerk
             name = AL["Patchwerk"],
             npcID = 16028,
@@ -5066,7 +5067,7 @@ data["Naxxramas"] = {
                 { 12, 22801 }, -- Spire of Twilight
             },
         },
-        -- Frostwyrm Lair
+     -- Frostwyrm Lair
         { -- NAXSapphiron
             name = AL["Sapphiron"],
             npcID = 15989,

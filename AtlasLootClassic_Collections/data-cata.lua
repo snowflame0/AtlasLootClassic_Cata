@@ -135,7 +135,7 @@ data["ValorPointsCata"] = {
     ContentPhaseCata = 4,
     CorrespondingFields = private.VALOR_POINTS,
     items = { {
-        name = ALIL["Armor"] .. " - " .. ALIL["Cloth / Leather"],
+        name = ALIL["Armor"] .. " - " .. ALIL["Cloth"] .. " / " .. ALIL["Leather"],
         [VENDOR_DIFF] = { -- Cloth
             { 1,  77147 }, -- Hood of Hidden Flesh
             { 2,  77122 }, -- Robes of Searing Shadow
@@ -202,7 +202,7 @@ data["ValorPointsCata"] = {
             { 21, 77171 }, -- Bladeshatter Treads
         }
     }, {
-        name = ALIL["Armor"] .. " - " .. ALIL["Accessories"],
+        name = ALIL["Armor"] .. " - " .. AL["Accessories"],
         [VENDOR_DIFF] = { -- Plate
             { 1,  77095 }, -- Batwing Cloak
             { 2,  77097 }, -- Dreamcrusher Drape
@@ -546,7 +546,7 @@ data["JusticePointsCata"] = {
         { 17,  71214 }, -- Firemind Pendant
         }
     }, {
-        name = ALIL["Ring"],
+        name = ALIL["Finger"],
         [VENDOR_DIFF] = {
             { 1, 58189 }, -- Twined Band of Flowers
             { 2, 58188 }, -- Band of Secret Names
@@ -722,7 +722,7 @@ data["ObsidianFragments"] = {
         }
     },
     {
-        name = ALIL["Ring"],
+        name = ALIL["Finger"],
         [VENDOR_DIFF] = {
             { 1, 78440 }, -- Curled Twilight Claw
             { 2, 78497 }, -- Breathstealer Band
@@ -927,7 +927,7 @@ data["FissureStoneFragments"] = {
         }
     },
     {
-        name = ALIL["Ring"],
+        name = ALIL["Finger"],
         [VENDOR_DIFF] = {
             { 1, 60226 }, -- Dargonax's Signet
             { 16, 232949 }, -- Satchel of the Cloudburst Ring

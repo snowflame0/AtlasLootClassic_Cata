@@ -94,7 +94,7 @@ data["ValorPointsMoP"] = {
     CorrespondingFields = private.VALOR_POINTS,
      items = {
         {
-        name = ALIL["Armor"] .. " - " .. ALIL["Cloth / Leather"],
+        name = ALIL["Armor"] .. " - " .. ALIL["Cloth"] .. " / " .. ALIL["Leather"],
         [VENDOR_DIFF] = { -- Cloth
             { 1,  77147 }, -- Hood of Hidden Flesh
             { 2,  77122 }, -- Robes of Searing Shadow
@@ -164,7 +164,7 @@ data["ValorPointsMoP"] = {
             }
         },
         {
-        name = ALIL["Armor"] .. " - " .. ALIL["Accessories"],
+        name = ALIL["Armor"] .. " - " .. AL["Accessories"],
         [VENDOR_DIFF] = { -- Plate
             { 1,  77095 }, -- Batwing Cloak
             { 2,  77097 }, -- Dreamcrusher Drape
@@ -478,7 +478,7 @@ data["JusticePointsMoP"] = {
             }
         },
         {
-            name = ALIL["Ranged Weapons"],
+            name = AL["Ranged Weapons"],
         [VENDOR_DIFF_P2] = {
             { 1, 71218 }, -- Deflecting Star
             { 2, 71154 }, -- Giantslicer
@@ -517,7 +517,7 @@ data["JusticePointsMoP"] = {
             }
         },
         {
-        name = ALIL["Ring"],
+        name = ALIL["Finger"],
         [VENDOR_DIFF] = {
             { 1, 58189 }, -- Twined Band of Flowers
             { 2, 58188 }, -- Band of Secret Names
@@ -802,7 +802,7 @@ data["CompanionsMoP"] = {
             }
         },
         {
-        name = ALIL["Crafting"],
+        name = AL["Crafting"],
         [NORMAL_DIFF] = {
             { 1,  89368 }, -- Chi-Ji Kite
             { 2,  90900 }, -- Imperial Moth

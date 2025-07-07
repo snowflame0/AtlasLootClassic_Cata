@@ -978,7 +978,8 @@ data["ScarletHallsMoP"] = {
                 { 9, 82816 },	-- Melted Hypnotic Blade
                 { 10, 82813 },	-- Koegler's Ritual Knife
                 { 11, 82814 },	-- Mograine's Immaculate Might
-                { 13, 87268, [ATLASLOOT_IT_FILTERIGNORE] = true },	-- Codex of the Crusade
+                { 13, 87268, [ATLASLOOT_IT_FILTERIGNORE] = true }, -- Codex of the Crusade
+                { 15, 82470 }, -- Ancient Tome of Portal: Dalaran
                 { 16, "ac6760" },
             },
         },
@@ -1038,7 +1039,7 @@ data["ScarletMonasteryMoP"] = {
             },
         },
         -- {	--HallowsEndHeadlessHorseman
-        -- 	name = AL["Headless Horseman"].." ("..AL["Hallow's End"]..")",
+        -- 	name = AL["Headless Horseman"] .. "(" .. AL["Hallow's End"] .. ")",
         -- 	ExtraList = true,
         -- 	-- [NORMAL_DIFF] = "AtlasLoot_Collections:HallowsEnd:1",
         -- },
@@ -1194,13 +1195,13 @@ data["WorldBossesMoP"] = {
                 { 317, 84831 },	-- Malevolent Gladiator's Ornamented Gloves
                 { 320, "ICON_Spell_Holy_AuraOfLight", nil, ALIL["PALADIN"], ALIL["Retribution"] },
                 { 321, 84834 },	-- Malevolent Gladiator's Scaled Gauntlets
-                { 401, "ICON_spell_holy_guardianspirit", nil, ALIL["PRIEST"], ALIL["Discipline"].." / "..ALIL["Holy"] },
+                { 401, "ICON_spell_holy_guardianspirit", nil, ALIL["PRIEST"], ALIL["Discipline"] .. " / " .. ALIL["Holy"] },
                 { 402, 85363 },	-- Guardian Serpent Handwraps
                 { 403, 85361 },	-- Guardian Serpent Legwraps
                 { 405, "ICON_spell_shadow_shadowwordpain", nil, ALIL["PRIEST"], ALIL["Shadow"] },
                 { 406, 85364 },	-- Guardian Serpent Gloves
                 { 407, 85366 },	-- Guardian Serpent Leggings
-                { 416, "ICON_spell_holy_guardianspirit", nil, ALIL["PRIEST"], ALIL["Discipline"].." / "..ALIL["Holy"] },
+                { 416, "ICON_spell_holy_guardianspirit", nil, ALIL["PRIEST"], ALIL["Discipline"] .. " / " .. ALIL["Holy"] },
                 { 417, 84846 },	-- Malevolent Gladiator's Mooncloth Gloves
                 { 420, "ICON_spell_shadow_shadowwordpain", nil, ALIL["PRIEST"], ALIL["Shadow"] },
                 { 421, 84838 },	-- Malevolent Gladiator's Satin Gloves
@@ -1219,13 +1220,13 @@ data["WorldBossesMoP"] = {
                 { 521, 84844 },	-- Malevolent Gladiator's Linked Gauntlets
                 { 524, "ICON_spell_nature_magicimmunity", nil, ALIL["SHAMAN"], ALIL["Restoration"] },
                 { 525, 84847 },	-- Malevolent Gladiator's Ringmail Gauntlets
-                { 601, "ICON_spell_deathknight_frostpresence", nil, ALIL["DEATHKNIGHT"], ALIL["Frost"].." / "..ALIL["Unholy"] },
+                { 601, "ICON_spell_deathknight_frostpresence", nil, ALIL["DEATHKNIGHT"], ALIL["Frost"] .. " / " .. ALIL["Unholy"] },
                 { 602, 85337 },	-- Gauntlets of the Lost Catacomb
                 { 603, 85335 },	-- Greaves of the Lost Catacomb
                 { 605, "ICON_spell_deathknight_bloodpresence", nil, ALIL["DEATHKNIGHT"], ALIL["Blood"] },
                 { 606, 85317 },	-- Handguards of the Lost Catacomb
                 { 607, 85315 },	-- Legguards of the Lost Catacomb
-                { 609, "ICON_ability_warrior_innerrage", nil, ALIL["WARRIOR"], ALIL["Arms"].." / "..ALIL["Fury"] },
+                { 609, "ICON_ability_warrior_innerrage", nil, ALIL["WARRIOR"], ALIL["Arms"] .. " / " .. ALIL["Fury"] },
                 { 610, 85331 },	-- Gauntlets of Resounding Rings
                 { 611, 85330 },	-- Legplates of Resounding Rings
                 { 613, "ICON_ability_warrior_defensivestance", nil, ALIL["WARRIOR"], ALIL["Protection"] },
@@ -1448,13 +1449,13 @@ data["WorldBossesMoP"] = {
                 { 320, "ICON_Spell_Holy_AuraOfLight", nil, ALIL["PALADIN"], ALIL["Retribution"] },
                 { 321, [ATLASLOOT_IT_ALLIANCE] = 91269, [ATLASLOOT_IT_HORDE] = 94343 },	-- Tyrannical Gladiator's Scaled Gauntlets
                 { 322, [ATLASLOOT_IT_ALLIANCE] = 91273, [ATLASLOOT_IT_HORDE] = 94496 },	-- Tyrannical Gladiator's Scaled Legguards
-                { 401, "ICON_spell_holy_guardianspirit", nil, ALIL["PRIEST"], ALIL["Discipline"].." / "..ALIL["Holy"] },
+                { 401, "ICON_spell_holy_guardianspirit", nil, ALIL["PRIEST"], ALIL["Discipline"] .. " / " .. ALIL["Holy"] },
                 { 402, 95295 },	-- Handwraps of the Exorcist
                 { 403, 95297 },	-- Legwraps of the Exorcist
                 { 405, "ICON_spell_shadow_shadowwordpain", nil, ALIL["PRIEST"], ALIL["Shadow"] },
                 { 406, 95300 },	-- Gloves of the Exorcist
                 { 407, 95302 },	-- Leggings of the Exorcist
-                { 416, "ICON_spell_holy_guardianspirit", nil, ALIL["PRIEST"], ALIL["Discipline"].." / "..ALIL["Holy"] },
+                { 416, "ICON_spell_holy_guardianspirit", nil, ALIL["PRIEST"], ALIL["Discipline"] .. " / " .. ALIL["Holy"] },
                 { 417, [ATLASLOOT_IT_ALLIANCE] = 91309, [ATLASLOOT_IT_HORDE] = 94328 },	-- Tyrannical Gladiator's Mooncloth Gloves
                 { 418, [ATLASLOOT_IT_ALLIANCE] = 91313, [ATLASLOOT_IT_HORDE] = 94420 },	-- Tyrannical Gladiator's Mooncloth Leggings
                 { 420, "ICON_spell_shadow_shadowwordpain", nil, ALIL["PRIEST"], ALIL["Shadow"] },
@@ -1478,13 +1479,13 @@ data["WorldBossesMoP"] = {
                 { 524, "ICON_spell_nature_magicimmunity", nil, ALIL["SHAMAN"], ALIL["Restoration"] },
                 { 525, [ATLASLOOT_IT_ALLIANCE] = 91360, [ATLASLOOT_IT_HORDE] = 94490 },	-- Tyrannical Gladiator's Ringmail Gauntlets
                 { 526, [ATLASLOOT_IT_ALLIANCE] = 91364, [ATLASLOOT_IT_HORDE] = 94435 },	-- Tyrannical Gladiator's Ringmail Leggings
-                { 601, "ICON_spell_deathknight_frostpresence", nil, ALIL["DEATHKNIGHT"], ALIL["Frost"].." / "..ALIL["Unholy"] },
+                { 601, "ICON_spell_deathknight_frostpresence", nil, ALIL["DEATHKNIGHT"], ALIL["Frost"] .. " / " .. ALIL["Unholy"] },
                 { 602, 95226 },	-- Gauntlets of the All-Consuming Maw
                 { 603, 95228 },	-- Greaves of the All-Consuming Maw
                 { 605, "ICON_spell_deathknight_bloodpresence", nil, ALIL["DEATHKNIGHT"], ALIL["Blood"] },
                 { 606, 95231 },	-- Handguards of the All-Consuming Maw
                 { 607, 95233 },	-- Legguards of the All-Consuming Maw
-                { 609, "ICON_ability_warrior_innerrage", nil, ALIL["WARRIOR"], ALIL["Arms"].." / "..ALIL["Fury"] },
+                { 609, "ICON_ability_warrior_innerrage", nil, ALIL["WARRIOR"], ALIL["Arms"] .. " / " .. ALIL["Fury"] },
                 { 610, 95332 },	-- Gauntlets of the Last Mogu
                 { 611, 95333 },	-- Legplates of the Last Mogu
                 { 613, "ICON_ability_warrior_defensivestance", nil, ALIL["WARRIOR"], ALIL["Protection"] },
@@ -1758,13 +1759,13 @@ data["WorldBossesMoP"] = {
                 { 320, "ICON_Spell_Holy_AuraOfLight", nil, ALIL["PALADIN"], ALIL["Retribution"] },
                 { 321, [ATLASLOOT_IT_ALLIANCE] = 102630, [ATLASLOOT_IT_HORDE] = 103440 },	-- Prideful Gladiator's Scaled Gauntlets
                 { 322, [ATLASLOOT_IT_ALLIANCE] = 102780, [ATLASLOOT_IT_HORDE] = 103442 },	-- Prideful Gladiator's Scaled Legguards
-                { 401, "ICON_spell_holy_guardianspirit", nil, ALIL["PRIEST"], ALIL["Discipline"].." / "..ALIL["Holy"] },
+                { 401, "ICON_spell_holy_guardianspirit", nil, ALIL["PRIEST"], ALIL["Discipline"] .. " / " .. ALIL["Holy"] },
                 { 402, 99131 },	-- Handwraps of the Ternion Glory
                 { 403, 99118 },	-- Legwraps of the Ternion Glory
                 { 405, "ICON_spell_shadow_shadowwordpain", nil, ALIL["PRIEST"], ALIL["Shadow"] },
                 { 406, 99121 },	-- Gloves of the Ternion Glory
                 { 407, 99123 },	-- Leggings of the Ternion Glory
-                { 416, "ICON_spell_holy_guardianspirit", nil, ALIL["PRIEST"], ALIL["Discipline"].." / "..ALIL["Holy"] },
+                { 416, "ICON_spell_holy_guardianspirit", nil, ALIL["PRIEST"], ALIL["Discipline"] .. " / " .. ALIL["Holy"] },
                 { 417, [ATLASLOOT_IT_ALLIANCE] = 102615, [ATLASLOOT_IT_HORDE] = 103462 },	-- Prideful Gladiator's Mooncloth Gloves
                 { 418, [ATLASLOOT_IT_ALLIANCE] = 102704, [ATLASLOOT_IT_HORDE] = 103464 },	-- Prideful Gladiator's Mooncloth Leggings
                 { 420, "ICON_spell_shadow_shadowwordpain", nil, ALIL["PRIEST"], ALIL["Shadow"] },
@@ -1788,13 +1789,13 @@ data["WorldBossesMoP"] = {
                 { 524, "ICON_spell_nature_magicimmunity", nil, ALIL["SHAMAN"], ALIL["Restoration"] },
                 { 525, [ATLASLOOT_IT_ALLIANCE] = 102774, [ATLASLOOT_IT_HORDE] = 103486 },	-- Prideful Gladiator's Ringmail Gauntlets
                 { 526, [ATLASLOOT_IT_ALLIANCE] = 102719, [ATLASLOOT_IT_HORDE] = 103488 },	-- Prideful Gladiator's Ringmail Leggings
-                { 601, "ICON_spell_deathknight_frostpresence", nil, ALIL["DEATHKNIGHT"], ALIL["Frost"].." / "..ALIL["Unholy"] },
+                { 601, "ICON_spell_deathknight_frostpresence", nil, ALIL["DEATHKNIGHT"], ALIL["Frost"] .. " / " .. ALIL["Unholy"] },
                 { 602, 99193 },	-- Gauntlets of Cyclopean Dread
                 { 603, 99186 },	-- Greaves of Cyclopean Dread
                 { 605, "ICON_spell_deathknight_bloodpresence", nil, ALIL["DEATHKNIGHT"], ALIL["Blood"] },
                 { 606, 99189 },	-- Handguards of Cyclopean Dread
                 { 607, 99191 },	-- Legguards of Cyclopean Dread
-                { 609, "ICON_ability_warrior_innerrage", nil, ALIL["WARRIOR"], ALIL["Arms"].." / "..ALIL["Fury"] },
+                { 609, "ICON_ability_warrior_innerrage", nil, ALIL["WARRIOR"], ALIL["Arms"] .. " / " .. ALIL["Fury"] },
                 { 610, 99198 },	-- Gauntlets of the Prehistoric Marauder
                 { 611, 99199 },	-- Legplates of the Prehistoric Marauder
                 { 613, "ICON_ability_warrior_defensivestance", nil, ALIL["WARRIOR"], ALIL["Protection"] },

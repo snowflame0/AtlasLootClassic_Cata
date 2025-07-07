@@ -7,6 +7,7 @@ AL["Julak-Doom"] = "Julak-Doom"
 AL["Mobus"] = "Mobus"
 AL["Poseidus"] = "Poseidus"
 AL["Shared Boss Loot"] = "Shared Boss Loot"
+AL["Tier Token iLvl384"] = "Tier Token iLvl384"
 AL["Weapon or Jewelry iLvl384"] = "Weapon or Jewelry iLvl384"
 AL["Xariona"] = "Xariona"
 
