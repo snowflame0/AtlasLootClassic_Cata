@@ -198,6 +198,18 @@ local PRICE_INFO_LIST = {
     ["AugustStoneFragment"] = {
         currencyID = 3350
     },
+    ["RadicalMojo"] = {
+        itemID = 97849
+    },
+    ["CelestialCoin"] = {
+        itemID = 101529
+    },
+    ["TimelessCoin"] = {
+        currencyID = 777
+    },
+    ["BloodyCoin"] = {
+        currencyID = 789
+    },
 
     --- PvP
     ["honor"] = {
@@ -2025,7 +2037,6 @@ if AtlasLoot:GameVersion_GE(AtlasLoot.CATA_VERSION_NUM) then
         [101789] = "JewelTokenCata:5",
         [101802] = "JewelTokenCata:5",
         [101752] = "JewelTokenCata:5",
-        [101771] = "JewelTokenCata:5",
         [101756] = "JewelTokenCata:5",
         [101766] = "JewelTokenCata:5",
         [101782] = "JewelTokenCata:5",
@@ -3090,6 +3101,13 @@ if AtlasLoot:GameVersion_GE(AtlasLoot.MOP_VERSION_NUM) then
         [89965] = "AugustStoneFragment:40",
         [89981] = "AugustStoneFragment:30",
         [87823] = "AugustStoneFragment:45",
+        [97821] = "RadicalMojo:1",
+        [101771] = "CelestialCoin:3",
+        [102145] = "CelestialCoin:3",
+        [102146] = "CelestialCoin:3",
+        [102147] = "CelestialCoin:3",
+        [103637] = "BloodyCoin:100",
+        [104295] = "TimelessCoin:7500",
     }
 end
 

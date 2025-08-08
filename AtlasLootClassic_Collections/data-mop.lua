@@ -941,83 +941,93 @@ data["CompanionsMoP"] = {
         {
         name = AL["Drops"],
         [NORMAL_DIFF] = {
-            { 1,  93040 }, -- Anubisath Idol
-            { 2,  86563 }, -- Aqua Strider
-            { 3, 104156 }, -- Ashleaf Spriteling
-            { 4,  93035 }, -- Ashstone Core
-            { 5, 104157 }, -- Azure Crane Chick
-            { 6, 104158 }, -- Blackfuse Bombling
-            { 7, 104202 }, -- Bonkers
-            { 8,  93038 }, -- Chrominius
-            { 9,  97554 }, -- Coilfang Stalker
-            { 10, 93034 }, -- Corefire Imp
-            { 11, 104160 }, -- Dandelion Frolicker
-            { 12, 91040 }, -- Darkmoon Eye
-            { 13, 80008 }, -- Darkmoon Rabbit
-            { 14, 104161 }, -- Death Adder Hatchling
-            { 15, 93037 }, -- Death Talon Whelpguard
-            { 16, 94573 }, -- Direhorn Runt
-            { 17, 104162 }, -- Droplet of Y'Shaarj
-            { 18, 97551 }, -- Fiendish Imp
-            { 19, 97961 }, -- Filthling
-            { 20, 93032 }, -- Fungal Abomination
-            { 21, 93030 }, -- Giant Bone Spider
-            { 22, 104163 }, -- Gooey Sha-ling
-            { 23, 86564 }, -- Grinder
-            { 24, 104291 }, -- Gu'chi Swarmling
-            { 25, 104169 }, -- Gulp Froglet
-            { 26, 93033 }, -- Harbinger of Flame
-            { 27, 104307 }, -- Jadefire Spirit
-            { 28, 104164 }, -- Jademist Dancer
-            { 29, 94835 }, -- Ji-Kun Hatchling
-            { 30, 104165 }, -- Kovok
-            { 101, 97556 }, -- Lesser Voidcaller
-            { 102, 97548 }, -- Lil' Bad Wolf
-            { 103, 103670 }, -- Lil' Bling
+            -- Pre-patch
+            { 1, 93041 }, -- Mini Mindslayer
+            { 2, 93030 }, -- Giant Bone Spider
+            { 3, 93029 }, -- Stitched Pup
+            { 4, 93034 }, -- Corefire Imp
+            { 5, 93036 }, -- Untamed Hatchling
+            { 6, 93037 }, -- Death Talon Whelpguard
+            { 7, 93040 }, -- Anubisath Idol
+            { 8, 93032 }, -- Fungal Abomination
+            { 9, 93033 }, -- Harbinger of Flame
+            { 10, 93035 }, -- Ashstone Core
+            { 11, 93038 }, -- Chrominius
+            { 12, 93039 }, -- Viscidus Globule
+            { 13, 97548 }, -- Lil' Bad Wolf
+            { 14, 97550 }, -- Netherspace Abyssal
+            { 15, 97552 }, -- Tideskipper
+            { 16, 97554 }, -- Coilfang Stalker
+            { 17, 97556 }, -- Lesser Voidcaller
+            { 18, 97549 }, -- Menagerie Custodian
+            { 19, 97551 }, -- Fiendish Imp
+            { 20, 97553 }, -- Tainted Waveling
+            { 21, 97555 }, -- Pocket Reaver
+            { 22, 97557 }, -- Phoenix Hawk Hatchling
+            { 23, 89587 }, -- Porcupette
+            { 24, 91040 }, -- Darkmoon Eye
+            { 25, 80008 }, -- Darkmoon Rabbit
+            -- Phase 1
+            { 27, 101570 }, -- Moon Moon
+            { 28, 85220 }, -- Terrible Turnip
+            { 29, 86563 }, -- Aqua Strider
+            { 30, 86564 }, -- Grinder
+            { 101, 94595 }, -- Spawn of G'nathus
+            { 102, 103670 }, -- Lil' Bling
+            -- Phase 3
             { 104, 97959 }, -- Living Fluid
             { 105, 94125 }, -- Living Sandling
-            { 106, 97549 }, -- Menagerie Custodian
-            { 107, 93041 }, -- Mini Mindslayer
-            { 108, 101570 }, -- Moon Moon
-            { 109, 97550 }, -- Netherspace Abyssal
-            { 110, 104166 }, -- Ominous Flame
-            { 111, 97557 }, -- Phoenix Hawk Hatchling
-            { 112, 97555 }, -- Pocket Reaver
-            { 113, 89587 }, -- Porcupette
-            { 114, 94574 }, -- Pygmy Direhorn
-            { 115, 104159 }, -- Ruby Droplet
-            { 116, 104167 }, -- Skunky Alemental
-            { 117, 94152 }, -- Son of Animus
-            { 118, 94595 }, -- Spawn of G'nathus
-            { 119, 104168 }, -- Spineclaw Crab
-            { 120, 93029 }, -- Stitched Pup
-            { 121, 94124 }, -- Sunreaver Micro-Sentry
-            { 122, 97553 }, -- Tainted Waveling
-            { 123, 85220 }, -- Terrible Turnip
-            { 124, 97552 }, -- Tideskipper
-            { 125, 93036 }, -- Untamed Hatchling
-            { 126, 93039 }, -- Viscidus Globule
-            { 127, 97960 }, -- Viscous Horror
-            { 128, 95422 }, -- Zandalari Anklerender
-            { 129, 95423 }, -- Zandalari Footslasher
-            { 130, 94126 }, -- Zandalari Kneebiter
-            { 201, 95424 }, -- Zandalari Toenibbler
+            { 106, 94574 }, -- Pygmy Direhorn
+            { 107, 94152 }, -- Son of Animus
+            { 108, 94124 }, -- Sunreaver Micro-Sentry
+            { 109, 97960 }, -- Viscous Horror
+            { 110, 94835 }, -- Ji-Kun Hatchling
+            { 111, 94573 }, -- Direhorn Runt
+            { 112, 95422 }, -- Zandalari Anklerender
+            { 113, 95423 }, -- Zandalari Footslasher
+            { 114, 94126 }, -- Zandalari Kneebiter
+            { 115, 95424 }, -- Zandalari Toenibbler
+            -- Phase 5
+            { 117, 104156 }, -- Ashleaf Spriteling
+            { 118, 104157 }, -- Azure Crane Chick
+            { 119, 104158 }, -- Blackfuse Bombling
+            { 120, 104202 }, -- Bonkers
+            { 121, 104160 }, -- Dandelion Frolicker
+            { 122, 104161 }, -- Death Adder Hatchling
+            { 123, 104162 }, -- Droplet of Y'Shaarj
+            { 124, 97961 }, -- Filthling
+            { 125, 104163 }, -- Gooey Sha-ling
+            { 126, 104291 }, -- Gu'chi Swarmling
+            { 127, 104169 }, -- Gulp Froglet
+            { 128, 104307 }, -- Jadefire Spirit
+            { 129, 104164 }, -- Jademist Dancer
+            { 130, 104165 }, -- Kovok
+            { 201, 104166 }, -- Ominous Flame
+            { 202, 104159 }, -- Ruby Droplet
+            { 203, 104167 }, -- Skunky Alemental
+            { 204, 104168 }, -- Spineclaw Crab
             }
         },
         {
         name = AL["Vendor"],
         [NORMAL_DIFF] = {
-            { 1,  102145 }, -- Chi-Chi, Hatchling of Chi-Ji
-            { 2,  93025 }, -- Clock'em
-            { 3,  91003 }, -- Darkmoon Hatchling
-            { 4,  97821 }, -- Gahz'rooki
-            { 5,  104295 }, -- Harmonious Porcupette
-            { 6,  88148 }, -- Jade Crane Chick
-            { 7,  85447 }, -- Tiny Goldfish
-            { 8,  103637 }, -- Vengeful Porcupette
-            { 9,  101771 }, -- Xu-Fu, Cub of Xuen
-            { 10, 102147 }, -- Yu'la, Broodling of Yu'lon
-            { 11, 102146 }, -- Zao, Calfling of Niuzao
+            -- Pre-patch
+            { 1,  91003 }, -- Darkmoon Hatchling
+            -- Phase 1
+            { 3,  88148 }, -- Jade Crane Chick
+            { 4,  85447 }, -- Tiny Goldfish
+            { 5,  95621 }, -- Warbot
+            -- Phase 2?
+            { 7,  93025 }, -- Clock'em
+            -- Phase 4
+            { 9,  97821 }, -- Gahz'rooki
+            -- Phase 5
+            { 11, 101771 }, -- Xu-Fu, Cub of Xuen
+            { 12, 102145 }, -- Chi-Chi, Hatchling of Chi-Ji
+            { 13, 102146 }, -- Zao, Calfling of Niuzao
+            { 14, 102147 }, -- Yu'la, Broodling of Yu'lon
+            { 15, 103637 }, -- Vengeful Porcupette
+            { 16, 104295 }, -- Harmonious Porcupette
             }
         },
         {
@@ -1032,51 +1042,58 @@ data["CompanionsMoP"] = {
         TableType = AC_ITTYPE,
         [NORMAL_DIFF] = {
             { 1,  85578, "ac7500" }, -- Feral Vermling
-            { 2,  89686, "ac7521" }, -- Jade Tentacle
-            { 3,  93031, "ac7934" }, -- Mr. Bigglesworth
+            { 2,  89736, "ac7501" }, -- Venus
+            { 3,  89686, "ac7521" }, -- Jade Tentacle
             { 4,  94191, "ac8300" }, -- Stunted Direhorn
-            { 5,  97558, "ac8293" }, -- Tito
-            { 16, 89736, "ac7501" }, -- Venus
+            { 5,  93031, "ac7934" }, -- Mr. Bigglesworth
+            { 6,  97558, "ac8293" }, -- Tito
             }
         },
         {
         name = ALIL["Quests"],
         TableType = AC_ITTYPE,
         [NORMAL_DIFF] = {
+            -- Phase 1
             { 1,  84105 }, -- Fishy
-            { 2,  94210 }, -- Mountain Panda
-            { 3,  92799 }, -- Pandaren Air Spirit
-            { 4,  92800 }, -- Pandaren Earth Spirit
-            { 5,  92798 }, -- Pandaren Fire Spirit
-            { 6,  90173 }, -- Pandaren Water Spirit
-            { 7,  85222 }, -- Red Cricket
-            { 8,  94025 }, -- Red Panda
-            { 9,  94209 }, -- Snowy Panda
-            { 10, 94190 }, -- Spectral Porcupette
-            { 11, 94208 }, -- Sunfur Panda
+            { 2,  85222 }, -- Red Cricket
+            { 3,  90173 }, -- Pandaren Water Spirit
+            { 4,  92798 }, -- Pandaren Fire Spirit
+            { 5,  92799 }, -- Pandaren Air Spirit
+            { 6,  92800 }, -- Pandaren Earth Spirit
+            { 7,  94025 }, -- Red Panda
+            -- Phase 3
+            { 9, 94190 }, -- Spectral Porcupette
+            -- Phase 3?
+            { 11,  94208 }, -- Sunfur Panda
+            { 12,  94209 }, -- Snowy Panda
+            { 13, 94210 }, -- Mountain Panda
             }
         },
         {
         name = ALIL["Fishing"],
         [NORMAL_DIFF] = {
-            { 1, 94933 }, -- Tiny Blue Carp
-            { 2, 94934 }, -- Tiny Green Carp
-            { 3, 94932 }, -- Tiny Red Carp
+            -- Phase 3?
+            { 1, 94932 }, -- Tiny Red Carp
+            { 2, 94933 }, -- Tiny Blue Carp
+            { 3, 94934 }, -- Tiny Green Carp
             { 4, 94935 }, -- Tiny White Carp
             }
         },
         {
         name = AL["Crafting"],
         [NORMAL_DIFF] = {
-            { 1,  89368 }, -- Chi-Ji Kite
-            { 2,  90900 }, -- Imperial Moth
-            { 3,  90902 }, -- Imperial Silkworm
-            { 4,  82774 }, -- Jade Owl
+            -- Phase 1
+            { 1,  89367 }, -- Yu'lon Kite
+            { 2,  89368 }, -- Chi-Ji Kite
+            { 3,  82774 }, -- Jade Owl
+            { 4,  82775 }, -- Sapphire Cub
             { 5,  87526 }, -- Mechanical Pandaren Dragonling
-            { 6,  94903 }, -- Pierre
-            { 7, 100905 }, -- Rascal-Bot
-            { 8,  82775 }, -- Sapphire Cub
-            { 9,  89367 }, -- Yu'lon Kite
+            -- Phase 2?
+            { 7,  90900 }, -- Imperial Moth
+            { 8,  90902 }, -- Imperial Silkworm
+            -- Phase 3? 5?
+            { 10, 94903 }, -- Pierre
+            { 11, 100905 }, -- Rascal-Bot
             }
         },
         {
